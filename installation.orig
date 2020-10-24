@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    
+        
+    
+    
+
+<title>QOwnNotes installation</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Patrizio Bekerle"/>
+<meta name="description" content="QOwnNotes is the cross-platform open source plain-text file notepad with markdown support, that works together with the notes application of ownCloud."/>
+<meta name="keywords" content="QOwnNotes, plain-text, markdown, ownCloud, notepad, cross-platform, open source, Patrizio Bekerle, Linux, Windows, macOS"/>
+<meta name="generator" content="eZ Publish"/>
+<meta name="geo.region" content="AT" />
+<meta name="geo.placename" content="Graz" />
+<meta name="geo.position" content="47.070714;15.439504" />
+<meta name="ICBM" content="47.070714, 15.439504" />
+<meta name="Content-language" content="en-GB" />
+
+<link rel="image_src" href="https://raw.githubusercontent.com/pbek/QOwnNotes/develop/screenshots/screenshot.png" />
+<meta property="og:image" content="https://raw.githubusercontent.com/pbek/QOwnNotes/develop/screenshots/screenshot.png" />
+<meta property="og:url" content="https://www.qownnotes.org/installation" />
+<meta property="og:title" content="QOwnNotes installation" />
+<meta property="og:description" content="QOwnNotes is the cross-platform open source plain-text file notepad with markdown support, that works together with the notes application of ownCloud." />
+<meta property="og:type" content="website" />
+
+<link rel="Home" href="/" title="front page"/>
+<link rel="Index" href="/"/>
+<link rel="Shortcut icon" href="/bundles/pbeprojectwebpage/images/favicon.png" type="image/png"/>
+<link rel="Alternate" type="application/rss+xml" title="Blog RSS" href="/rss/feed/qownnotes-blog"/>
+
+    
+
+    
+<link href='//fonts.googleapis.com/css?family=Patua+One%7CMontserrat%7COpen+Sans:400,700,600' rel='stylesheet' type='text/css'/>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/264d2a5.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="/css/7216f40.css"/>
+
+<link rel="stylesheet" type="text/css" href="/css/f4d1e2a.css" media="print"/>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css"/>
+
+<link rel="stylesheet" type="text/css" href="/css/5b245dd.css"/>
+
+<style type="text/css">
+    @import url("/extension/ezwt/design/standard/stylesheets/websitetoolbar.css");
+</style>
+    
+<script type="text/javascript" src="/js/9839dfc.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/73b1985.js"></script>
+<script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+<![endif]-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+
+<script type="text/javascript" src="/js/d3cc23d.js"></script>
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"light-top"};
+    </script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
+    <script type="text/javascript">
+                if (location.protocol != 'https:') {
+            
+        }
+    </script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <link rel="Alternate" type="application/rss+xml" title="QOwnNotes release version RSS" href="/rss/project_version/qownnotes.rss"/>
+</head>
+
+<body class="bg_f0f2f2 color_53b7f9 light_skin">
+            <script type="text/javascript">
+            var gaProperty = 'UA-52660882-2';
+            var disableStr = 'ga-disable-' + gaProperty;
+            if (document.cookie.indexOf(disableStr + '=true') > -1) {
+                window[disableStr] = true;
+            }
+            function gaOptout() {
+                document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                window[disableStr] = true;
+                alert('Tracking by Google Analytics was disabled for this webpage by your browser.');
+            }
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-52660882-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//p.bekerle.com/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 1]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//p.bekerle.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    
+    <div class="row-wrap wrapper light_skin">
+        <div class="row-space">
+            <header id="header" class="row noprint">
+                <div id="top-menu">
+                    <div class="top-menu">
+    <ul>
+                    <li class=" ">
+
+                                    <a href="/">Home</a>
+                
+                            </li>
+                    <li class="active ">
+
+                                    <a href="/installation">Installation</a>
+                
+                            </li>
+                    <li class=" ">
+
+                                    <a href="/Blog">Blog</a>
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/Time-Flies-Podcast-episode-with-interview-about-QOwnNotes">Time Flies Podcast episode with interview about QOwnNotes</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/Bookmark-management-with-QOwnNotes-and-Web-Companion-browser-extension">Bookmark management with QOwnNotes and Web Companion browser extension</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/Firefox-extension-on-Firefox-Add-ons-page">Firefox extension on Firefox Add-ons page</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/Chrome-extension-in-Chrome-Web-Store">Chrome extension in Chrome Web Store</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/QOwnNotes-Web-Companion-Chrome-extension">QOwnNotes Web Companion Chrome extension</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Blog/500th-release-of-QOwnNotes">500th release of QOwnNotes</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="/changelog/QOwnNotes">Changelog</a>
+                
+                            </li>
+                    <li class=" no-link">
+
+                                    Docs
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="http://docs.qownnotes.org">Documentation</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Knowledge-base">Knowledge base</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/shortcuts/QOwnNotes">Shortcuts</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="https://github.com/pbek/QOwnNotes/issues">Issues</a>
+                
+                            </li>
+                    <li class=" ">
+
+                                    <a href="/Knowledge-base/How-can-I-get-involved-with-QOwnNotes">Get involved</a>
+                
+                            </li>
+                    <li class=" no-link">
+
+                                    Contact
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://t.me/QOwnNotes">Telegram</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://riot.im/app/#/room/!rUzrRvrnrOsLasDdbp:matrix.org?via=matrix.org">Matrix/Riot.im</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://gitter.im/qownnotes/qownnotes">Gitter IM (Chat)</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://kiwiirc.com/client/irc.freenode.net/#qownnotes">IRC (Chat)</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://quodlibet.duckdns.org/irc/qownnotes/latest.log.html">IRC Log</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="/Contact">Contact form</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="/donate">Donate</a>
+                
+                            </li>
+            </ul>
+</div>
+
+                </div>
+                <div class="break"></div>
+                <div class="head-logo">
+                    <a href="/"><img src="/bundles/pbeprojectwebpage/images/header-icon.png" alt="QOwnNotes - plain-text file markdown note taking with Nextcloud/ownCloud integration" /></a>
+                    <h1 class="head-name"><a href="/">QOwnNotes</a></h1>
+                    <h2 class="head-subname">Plain-text file markdown note taking with Nextcloud integration</h2>
+                </div>
+                <div class="head-social">
+                    <ul>
+                        <li class="github">
+                            <a class="github-button" href="https://github.com/pbek/QOwnNotes" data-icon="octicon-star" data-count-href="/pbek/QOwnNotes/stargazers" data-count-api="/repos/pbek/QOwnNotes#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star pbek/QOwnNotes on GitHub">Star</a>
+                        </li>
+                        <li class="github">
+                            <a class="github-button" href="https://github.com/pbek/QOwnNotes/issues" data-icon="octicon-issue-opened" data-count-api="/repos/pbek/QOwnNotes#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue pbek/QOwnNotes on GitHub">Issue</a>
+                        </li>
+                        <li class="fb"><a href="https://www.facebook.com/QOwnNotes" target="_blank">Facebook</a></li>
+                        <li class="tw"><a href="https://twitter.com/QOwnNotes" target="_blank">Twitter</a></li>
+                        <li class="gplus"><a href="https://plus.google.com/b/102968066306102706816/102968066306102706816" target="_blank">Google+</a></li>
+                                            </ul>
+                </div>
+            </header>
+
+            
+            <div id="pagelayout-breadcrumb">
+                                                                </div>
+
+            <div id="pagelayout-content">
+                    <section id="post" class="item project installation" xmlns="http://www.w3.org/1999/html">
+        <h2 class="item-title"><a href="#"><span class="title">Installation</span> <span class="icon-project"><i class="fa fa-cubes fa-2x"></i></span></a></h2>
+
+        <div class="item-cont clearfix">
+            <div class="">
+                <div class="post-cont wp-cont">
+                    <p>
+                        You can install <strong>QOwnNotes</strong> on the following operating systems or build it yourself.
+                        If not stated otherwise you can run QOwnNotes afterwards by executing <code class="inline">QOwnNotes</code>.
+                    </p>
+                    <div id="accordion-installation">
+                        <div id="accordion-installation-linux" class="installation-accordion">
+                            <h1 id="accordion-Linux">Install on Ubuntu Linux, elementary OS and Linux Mint</h1>
+                            <div>
+                                <h2>Ubuntu Linux 15.04 or newer, elementary OS, Linux Mint 18 or newer</h2>
+                                <p>
+                                    Install <strong>QOwnNotes</strong> on <strong>Ubuntu Linux</strong>
+                                    (minimum 15.04) using the PPA repository. Note that there are also packages for ARM in
+                                    the repository, in case you want to use QOwnNotes on a <strong>Raspberry Pi</strong>.
+                                </p>
+                                <p>
+                                    Open a terminal and enter the following lines to add the repository and install QOwnNotes.
+                                </p>
+                                <code>
+                                    sudo add-apt-repository ppa:pbek/qownnotes<br />
+                                    sudo apt-get update<br />
+                                    sudo apt-get install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://launchpad.net/~pbek/+archive/ubuntu/qownnotes/+packages">Direct Download</a>
+                                </p>
+                                <h2>Older Ubuntu Linux distributions and derivatives</h2>
+                                <p>
+                                    Best try to use the AppImage.
+                                </p>
+                                <ul>
+                                        <li class="file-tooltip" title="AppImage for Linux built with GitHub Actions<br /><br /><strong>version 20.10.2</strong><br />- the url of the update service was changed to make it possible to detach the<br />
+  api from the webpage in the future">
+        <h3>QOwnNotes Ubuntu Linux 64bit</h3>
+        <span class="build-number">version 20.10.2 - build v20.10.2</span>
+        <div class="file">
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/releases/download/v20.10.2/QOwnNotes-x86_64.AppImage" class="ezbinaryfile-field">QOwnNotes-x86_64.AppImage</a> (39.4 MB)
+        </div>
+        <div class="downloads">
+            October 4, 2020 09:17         </div>
+    </li>
+
+                                </ul>
+                                <p>
+                                    Then you can change the execute-permissions on the file:
+                                </p>
+                                <code>
+                                    chmod a+x QOwnNotes-*.AppImage
+                                </code>
+                                <p>
+                                    Afterwards you should be able to execute the AppImage to run QOwnNotes.
+                                </p>
+                                <h3>OBS Repository</h3>
+                                <p>
+                                    You may also be able to use the Ubuntu repositories from the Open Build Service
+                                    if you have installed Qt 5.6 yourself.<br />
+                                    Below are example calls for the xUbuntu 15.10 repository.
+                                    There are also repositories for 15.04 and 16.04.
+                                </p>
+                                <p>
+                                    Run the following shell command to trust the repository.
+                                </p>
+                                <code>
+                                    wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/xUbuntu_15.10/Release.key -O - | sudo apt-key add -
+                                </code>
+                                <p>
+                                    Run the following shell commands to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    sudo su -<br />
+                                    sh -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                    apt-get update<br />
+                                    apt-get install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/xUbuntu_15.10">Direct Download</a>
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-openSUSE">Install on openSUSE Linux</h1>
+                            <div>
+                                <h2>openSUSE 13.2</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_13.2/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_13.2/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_13.2">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 15.2</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.2/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.2/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_15.2">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 15.1</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.1/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.1/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_15.1">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 15.0</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.0/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_15.0/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_15.0">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 42.3</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.3/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.3/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_42.3">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 42.2</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.2/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.2/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_42.2">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Leap 42.1</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.1/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Leap_42.1/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Leap_42.1">Direct Download</a>
+                                </p>
+
+                                <h2>openSUSE Tumbleweed</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Tumbleweed/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/openSUSE_Tumbleweed/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/openSUSE_Tumbleweed">Direct Download</a>
+                                </p>
+
+                                <h2>SLE 12 SP3 Backports</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/SLE_12_SP3_Backports/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/SLE_12_SP3_Backports/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/SLE_12_SP3_Backports">Direct Download</a>
+                                </p>
+
+                                <h2>SLE 15</h2>
+                                <p>
+                                    Run the following shell commands as root to trust the repository.
+                                </p>
+                                <code>
+                                    su -<br />
+                                    rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/SLE_15/repodata/repomd.xml.key
+                                </code>
+                                <p>
+                                    Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                </p>
+                                <code>
+                                    zypper addrepo -f http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/SLE_15/home:pbek:QOwnNotes.repo<br />
+                                    zypper refresh<br />
+                                    zypper install qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/SLE_15">Direct Download</a>
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-Fedora">Install on Fedora Linux</h1>
+                            <div>
+                                                                    <h2>Fedora 32</h2>
+                                    <p>
+                                        Run the following shell commands as root to trust the repository.
+                                    </p>
+                                    <code>
+                                        su -<br />
+                                        rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_32/repodata/repomd.xml.key
+                                    </code>
+                                    <p>
+                                        Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_32/home:pbek:QOwnNotes.repo -O /etc/yum.repos.d/QOwnNotes.repo<br />
+                                        dnf clean expire-cache<br />
+                                        dnf install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Fedora_32">Direct Download</a>
+                                    </p>
+                                                                    <h2>Fedora 31</h2>
+                                    <p>
+                                        Run the following shell commands as root to trust the repository.
+                                    </p>
+                                    <code>
+                                        su -<br />
+                                        rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_31/repodata/repomd.xml.key
+                                    </code>
+                                    <p>
+                                        Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_31/home:pbek:QOwnNotes.repo -O /etc/yum.repos.d/QOwnNotes.repo<br />
+                                        dnf clean expire-cache<br />
+                                        dnf install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Fedora_31">Direct Download</a>
+                                    </p>
+                                                                    <h2>Fedora 30</h2>
+                                    <p>
+                                        Run the following shell commands as root to trust the repository.
+                                    </p>
+                                    <code>
+                                        su -<br />
+                                        rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_30/repodata/repomd.xml.key
+                                    </code>
+                                    <p>
+                                        Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_30/home:pbek:QOwnNotes.repo -O /etc/yum.repos.d/QOwnNotes.repo<br />
+                                        dnf clean expire-cache<br />
+                                        dnf install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Fedora_30">Direct Download</a>
+                                    </p>
+                                                                    <h2>Fedora 29</h2>
+                                    <p>
+                                        Run the following shell commands as root to trust the repository.
+                                    </p>
+                                    <code>
+                                        su -<br />
+                                        rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_29/repodata/repomd.xml.key
+                                    </code>
+                                    <p>
+                                        Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_29/home:pbek:QOwnNotes.repo -O /etc/yum.repos.d/QOwnNotes.repo<br />
+                                        dnf clean expire-cache<br />
+                                        dnf install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Fedora_29">Direct Download</a>
+                                    </p>
+                                                                    <h2>Fedora 28</h2>
+                                    <p>
+                                        Run the following shell commands as root to trust the repository.
+                                    </p>
+                                    <code>
+                                        su -<br />
+                                        rpm --import http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_28/repodata/repomd.xml.key
+                                    </code>
+                                    <p>
+                                        Run the following shell commands as root to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Fedora_28/home:pbek:QOwnNotes.repo -O /etc/yum.repos.d/QOwnNotes.repo<br />
+                                        dnf clean expire-cache<br />
+                                        dnf install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Fedora_28">Direct Download</a>
+                                    </p>
+                                                            </div>
+
+                            <h1 id="accordion-Arch">Install on Arch Linux</h1>
+                            <div>
+                                <h2>pacman</h2>
+                                <p>
+                                    Add the following lines to your <code class="inline">/etc/pacman.conf</code> with <code class="inline">sudo nano /etc/pacman.conf</code>:
+                                </p>
+                                <code>
+                                    [home_pbek_QOwnNotes_Arch_Extra]<br />
+                                    SigLevel = Optional TrustAll<br />
+                                    Server = http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Arch_Extra/$arch
+                                </code>
+                                <p>
+                                    Run the following shell commands to trust the repository:
+                                </p>
+                                <code>
+                                    wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Arch_Extra/x86_64/home_pbek_QOwnNotes_Arch_Extra.key -O - | sudo pacman-key --add -<br />
+                                    sudo pacman-key --lsign-key FFC43FC94539B8B0
+                                </code>
+                                <p>
+                                    Synchronize your package database and install the package with <code class="inline">pacman</code>:
+                                </p>
+                                <code>
+                                    sudo pacman -Syy qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Arch_Extra">Direct Download</a>
+                                </p>
+                                <p>
+                                    Of course you can also use this repository with other Arch Linux based distributions, like Manjaro.
+                                </p>
+
+                                <h2>Arch User Repository (AUR)</h2>
+                                <p>
+                                    Alternatively there also is an official package for QOwnNotes on AUR, it is called <code class="inline">qownnotes</code>.
+                                </p>
+                                <p>
+                                    You will find it here: <a target="_blank" rel="nofollow" href="https://aur.archlinux.org/packages/qownnotes">QOwnNotes on AUR</a>
+                                </p>
+                                <p>
+                                    Synchronize your package database and install the package with <code class="inline">yay</code>:
+                                </p>
+                                <code>
+                                    yay -S qownnotes
+                                </code>
+                                <p>
+                                    If you want to speed up build time you may want to read
+                                    <a href="https://www.reddit.com/r/archlinux/comments/6vez44/a_small_tip_if_you_compile_from_aur/" target="_blank">CCACHE and AUR</a>.
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-snap">Install as snap</h1>
+                            <div>
+                                <p>
+                                    There is a snap <code class="inline">qownnotes</code> in the
+                                    <a rel="nofollow" target="_blank" href="https://snapcraft.io/qownnotes">Snap store</a>.
+                                </p>
+                                <p>
+                                    You can install it by typing:
+                                </p>
+                                <code>
+                                    snap install qownnotes
+                                </code>
+                                <p>
+                                    Afterwards you should be able to run QOwnNotes with the command <code class="inline">qownnotes</code>.
+                                </p>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="http://snapcraft.io">Snaps</a> are working on many Linux distributions like
+                                    Ubuntu, Arch Linux, Debian, Fedora, openSUSE, Gentoo Linux, OpenWRT, open embedded and yocto project.
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-flatpak">Install as Flatpak</h1>
+                            <div>
+                                <p>
+                                    There is a 3rd party Flatpak <code class="inline">org.qownnotes.QOwnNotes</code> on
+                                    <a rel="nofollow" target="_blank" href="https://flathub.org/apps/details/org.qownnotes.QOwnNotes">Flathub</a>.
+                                </p>
+                                <p>
+                                    You can install it by typing:
+                                </p>
+                                <code>
+                                    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo<br />
+                                    flatpak install flathub org.qownnotes.QOwnNotes
+                                </code>
+                                <p>
+                                    Afterwards you should be able to run QOwnNotes with the command <code class="inline">flatpak run org.qownnotes.QOwnNotes</code>.
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-AppImage">Install as AppImage</h1>
+                            <div>
+                                <p>
+                                    You can download the latest AppImage from the
+                                    <a rel="nofollow" target="_blank" href="https://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/AppImage">QOwnNotes AppImage repository</a>.
+                                </p>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/AppImage/QOwnNotes-latest-x86_64.AppImage">Latest QOwnNotes x86_64 AppImage</a>
+                                </p>
+                                <p>
+                                    Then you can change the execute-permissions on the file:
+                                </p>
+                                <code>
+                                    chmod a+x QOwnNotes-*.AppImage
+                                </code>
+                                <p>
+                                    Afterwards you should be able to execute the AppImage to run QOwnNotes.
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-Solus">Install on Solus</h1>
+                            <div>
+                                <p>
+                                    There is a <code class="inline">qownnotes</code> package that is maintained by the <a rel="nofollow" target="_blank" href="https://getsol.us/">Solus Project</a>.
+                                </p>
+                                <p>
+                                    You can install it by typing:
+                                </p>
+                                <code>
+                                    sudo eopkg install qownnotes
+                                </code>
+                            </div>
+
+                            <h1 id="accordion-KaOS">Install on KaOS Linux</h1>
+                            <div>
+                                <p>
+                                    There is a community maintained package <code class="inline">qownnotes</code> at the
+                                    <a rel="nofollow" target="_blank" href="https://github.com/KaOS-Community-Packages/qownnotes">KaOS Community Packages</a>
+                                    repository.
+                                </p>
+                                <p>
+                                    You can install it by typing:
+                                </p>
+                                <code>
+                                    kcp -i qownnotes
+                                </code>
+                            </div>
+
+                            <h1 id="accordion-Debian">Install on Debian Linux</h1>
+                            <div>
+                                                                    <h2>Debian 10.0</h2>
+                                    <p>
+                                        Run the following shell commands trust the repository.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_10/Release.key -O - | sudo apt-key add -
+                                    </code>
+                                    <p>
+                                        Run the following shell commands to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        sudo bash -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_10/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                        sudo apt-get update<br />
+                                        sudo apt-get install qownnotes
+                                    </code>
+                                    <p>
+                                        If you use this repository for other Debian Linux versions please make sure that you have <strong>Qt</strong> installed at least at <strong>version 5.3</strong>.
+                                    </p>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Debian_10">Direct Download</a>
+                                    </p>
+                                                                    <h2>Debian 9.0</h2>
+                                    <p>
+                                        Run the following shell commands trust the repository.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_9.0/Release.key -O - | sudo apt-key add -
+                                    </code>
+                                    <p>
+                                        Run the following shell commands to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        sudo bash -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_9.0/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                        sudo apt-get update<br />
+                                        sudo apt-get install qownnotes
+                                    </code>
+                                    <p>
+                                        If you use this repository for other Debian Linux versions please make sure that you have <strong>Qt</strong> installed at least at <strong>version 5.3</strong>.
+                                    </p>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Debian_9.0">Direct Download</a>
+                                    </p>
+                                                                    <h2>Debian 8.0</h2>
+                                    <p>
+                                        Run the following shell commands trust the repository.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_8.0/Release.key -O - | sudo apt-key add -
+                                    </code>
+                                    <p>
+                                        Run the following shell commands to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        sudo bash -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_8.0/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                        sudo apt-get update<br />
+                                        sudo apt-get install qownnotes
+                                    </code>
+                                    <p>
+                                        If you use this repository for other Debian Linux versions please make sure that you have <strong>Qt</strong> installed at least at <strong>version 5.3</strong>.
+                                    </p>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Debian_8.0">Direct Download</a>
+                                    </p>
+                                                            </div>
+
+                            <h1 id="accordion-Raspbian">Install on Raspbian</h1>
+                            <div>
+                                                                    <h2>Raspbian 10.0</h2>
+                                    <p>
+                                        Run the following shell commands trust the repository.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Raspbian_10/Release.key -O - | sudo apt-key add -
+                                    </code>
+                                    <p>
+                                        Run the following shell commands to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        sudo bash -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Raspbian_10/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                        sudo apt-get update<br />
+                                        sudo apt-get install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Raspbian_10">Direct Download</a>
+                                    </p>
+                                                                    <h2>Raspbian 9.0</h2>
+                                    <p>
+                                        Run the following shell commands trust the repository.
+                                    </p>
+                                    <code>
+                                        wget http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Raspbian_9.0/Release.key -O - | sudo apt-key add -
+                                    </code>
+                                    <p>
+                                        Run the following shell commands to add the repository and install QOwnNotes from there.
+                                    </p>
+                                    <code>
+                                        sudo bash -c "echo 'deb http://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Raspbian_9.0/ /' >> /etc/apt/sources.list.d/qownnotes.list"<br />
+                                        sudo apt-get update<br />
+                                        sudo apt-get install qownnotes
+                                    </code>
+                                    <p>
+                                        <a rel="nofollow" target="_blank" href="https://build.opensuse.org/package/binaries/home:pbek:QOwnNotes/desktop/Raspbian_9.0">Direct Download</a>
+                                    </p>
+                                                            </div>
+
+                            <h1 id="accordion-Gentoo">Install on Gentoo Linux</h1>
+                            <div>
+                                <p>
+                                    Add the QOwnNotes repository with the following command
+                                    (see <a rel="nofollow" target="_blank" href="https://wiki.gentoo.org/wiki/Eselect/Repository">eselect-repository</a>).
+                                </p>
+                                <code>
+                                    sudo eselect repository enable qownnotes-overlay
+                                </code>
+                                <p>
+                                    Then you can install QOwnNotes the usual way.
+                                </p>
+                                <code>
+                                    sudo emerge --sync qownnotes-overlay && sudo emerge -av qownnotes
+                                </code>
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://github.com/qownnotes/gentoo-overlay/">QOwnNotes overlay on GitHub</a>
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-Slackware">Install on Slackware Linux</h1>
+                            <div>
+                                <h2>Slackware 14.1</h2>
+                                <p>
+                                    First you need to install Qt 5.
+                                </p>
+                                <code>
+                                    cd /tmp<br />
+                                    wget "http://bear.alienbase.nl/mirrors/people/alien/sbrepos/14.1/x86_64/qt5/qt5-5.5.1-x86_64-4alien.txz"<br />
+                                    sudo installpkg qt5-5.5.1-x86_64-4alien.txz
+                                </code>
+                                <p>
+                                    Then you can checkout the QOwnNotes slackbuilds repository and build the application.
+                                </p>
+                                <code>
+                                    cd /tmp<br />
+                                    git clone https://github.com/pbek/qownnotes-slackbuilds.git<br />
+                                    cd qownnotes-slackbuilds/14.1/qownnotes<br />
+                                    ./dobuild.sh
+                                </code>
+                                <p>
+                                    After that you can install the generated package with <code class="inline">installpkg</code>.
+                                </p>
+
+                                <h2>Slackware 14.2</h2>
+                                <p>
+                                    First you need to install Qt 5, libxkbcommon, libproxy and js185.
+                                </p>
+                                <code>
+                                    cd /tmp<br />
+                                    wget "http://bear.alienbase.nl/mirrors/people/alien/sbrepos/current/x86_64/qt5/qt5-5.6.1_1-x86_64-1alien.txz"<br />
+                                    wget http://bear.alienbase.nl/mirrors/people/alien/sbrepos/current/x86_64/libxkbcommon/libxkbcommon-0.5.0-x86_64-1alien.txz<br />
+                                    sudo installpkg libxkbcommon-0.5.0-x86_64-1alien.txz qt5-5.6.1_1-x86_64-1alien.txz<br />
+                                    slackpkg update<br />
+                                    slackpkg install libproxy js185-1.0.0-x86_64-1
+                                </code>
+                                <p>
+                                    Then you can checkout the QOwnNotes slackbuilds repository and build the application.
+                                </p>
+                                <code>
+                                    cd /tmp<br />
+                                    git clone https://github.com/pbek/qownnotes-slackbuilds.git<br />
+                                    cd qownnotes-slackbuilds/14.2/qownnotes<br />
+                                    ./dobuild.sh
+                                </code>
+                                <p>
+                                    After that you can install the generated package with <code class="inline">installpkg</code>.
+                                </p>
+                                <!--
+                                <p>
+                                    Disclaimer: I still get errors when building for Slackware 14.2, maybe this will work when Slackware 14.2 is released.
+                                </p>
+                                -->
+                                <p>
+                                    <a rel="nofollow" target="_blank" href="https://github.com/pbek/qownnotes-slackbuilds/">QOwnNotes Slackbuild on GitHub</a>
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-CentOS">Install on CentOS Linux</h1>
+                            <div>
+                                <p>
+                                    There are community-created packages for <strong>CentOS 7</strong> by <em>Jörg Woll</em> at
+                                    <a href="http://wilhelm949.spdns.org:10443/w3bservice/7/x86_64/w3bservice/Packages/repoview/qownnotes.html" rel="nofollow" target="_blank">
+                                        QOwnNotes packages for X86</a> and <a href="http://wilhelm949.spdns.org:10443/w3bservice/7/armhfp/w3bservice/Packages/repoview/qownnotes.html" rel="nofollow" target="_blank">
+                                        QOwnNotes packages for ARM</a>. A big thank you to Jörg!
+                                </p>
+                            </div>
+
+                            <h1 id="accordion-FreeBSD">Install on FreeBSD</h1>
+                            <div>
+                                <p>
+                                    There is a community-created package for <strong>FreeBSD</strong> by <em>Matthew Stobbs</em> at
+                                    <a href="https://svnweb.freebsd.org/ports/head/deskutils/qownnotes" rel="nofollow" target="_blank">
+                                        QOwnNotes FreeBSD port</a>. A big thank you to Matthew!
+                                </p>
+                            </div>
+                        </div>
+                        <div id="accordion-installation-macos" class="installation-accordion">
+
+                            <h1 id="accordion-OSX">Install on macOS&trade;</h1>
+                            <div>
+                                <p>
+                                    Download the latest <strong>macOS disk image</strong>, open it and drag the
+                                    <strong>QOwnNotes</strong> app to your <strong>application folder</strong>.
+                                </p>
+                                <p>
+                                    The first time you have to right click the application and click <strong>Open</strong> to open QOwnNotes.
+                                </p>
+                                <p>
+                                    If you get an error message <code class="inline">QOwnNotes.app cannot be opened because the developer cannot be verified</code>
+                                    you need to visit your macOS <em>Security settings</em> and click on <code class="inline">Open anyway</code>.
+                                </p>
+                                <ul>
+                                        <li class="file-tooltip" title="disk image for macOS 64bit built with GitHub Actions<br /><br /><strong>version 20.10.2</strong><br />- the url of the update service was changed to make it possible to detach the<br />
+  api from the webpage in the future">
+        <h3>QOwnNotes macOS 64bit</h3>
+        <span class="build-number">version 20.10.2 - build v20.10.2</span>
+        <div class="file">
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/releases/download/v20.10.2/QOwnNotes.dmg" class="ezbinaryfile-field">QOwnNotes.dmg</a> (18.5 MB)
+        </div>
+        <div class="downloads">
+            October 4, 2020 09:17         </div>
+    </li>
+
+                                </ul>
+                                <h2>Homebrew</h2>
+                                <p>
+                                    There is a community maintained cask of QOwnNotes at
+                                    <a href="https://formulae.brew.sh/cask/qownnotes" target="_blank">Homebrew</a>.
+                                </p>
+                                <p>
+                                    You can install it with:
+
+                                    <code>
+                                        brew install qownnotes
+                                    </code>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div id="accordion-installation-windows" class="installation-accordion">
+
+                            <h1 id="accordion-Windows">Install on Microsoft Windows&trade;</h1>
+                            <div>
+                                <p>
+                                    Download the latest <strong>Windows archive</strong> and unzip it to anywhere you like.
+                                    There is no installation needed!
+                                </p>
+                                <p>
+                                    If you want to use the <strong>automatic updater</strong> please make sure you unzip it
+                                    to a place where your user account has write access to.
+                                    By default your user account most likely <strong>doesn't have write access</strong>
+                                    to places like <code class="inline">C:\Program Files (x86)</code> or
+                                    <code class="inline">C:\Program Files</code>.
+                                </p>
+                                <ul>
+                                        <li class="file-tooltip" title="ZIP package for Microsoft Windows 64 Bit built with GitHub Actions<br /><br /><strong>version 20.10.2</strong><br />- the url of the update service was changed to make it possible to detach the<br />
+  api from the webpage in the future">
+        <h3>QOwnNotes Windows</h3>
+        <span class="build-number">version 20.10.2 - build v20.10.2</span>
+        <div class="file">
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/releases/download/v20.10.2/QOwnNotes.zip" class="ezbinaryfile-field">QOwnNotes.zip</a> (34.3 MB)
+        </div>
+        <div class="downloads">
+            October 4, 2020 09:17         </div>
+    </li>
+
+                                </ul>
+                                <p>
+                                    You can then directly run <code class="inline">QOwnNotes.exe</code> from your
+                                    <code class="inline">QOwnNotes</code> folder, no installation required.
+                                </p>
+                                <p>
+                                    Use <code class="inline">QOwnNotesPortable.bat</code> to run QOwnNotes in
+                                    <strong>portable mode</strong> where everything (including your notes) will only be
+                                    stored in your <code class="inline">QOwnNotes</code> folder.
+                                </p>
+                                <p>
+                                    You don't need the portable node if you just don't have Administration permissions
+                                    to your computer. QOwnNotes doesn't need to be installed.
+                                </p>
+                                <h2>Windows XP</h2>
+                                <p>
+                                    Qt dropped support for Windows XP with version 5.8, but QOwnNotes is now also built
+                                    with Qt 5.7 to allow Windows XP users to still use it.
+                                </p>
+                                <p>
+                                    Although you have to seek out the latest master build from
+                                    <a href="https://ci.appveyor.com/project/pbek/qownnotes/history" target="_blank">AppVeyor</a>
+                                    yourself, choose the <em>Qt 5.7 environment</em> and download the <em>artifact</em>.
+                                </p>
+                                <h2>Chocolatey</h2>
+                                <p>
+                                    There is a community maintained package of QOwnNotes at
+                                    <a href="https://chocolatey.org/packages/qownnotes/" target="_blank">Chocolatey</a>.
+                                </p>
+                                <p>
+                                    You can install it with:
+
+                                    <code>
+                                        choco install qownnotes
+                                    </code>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div id="accordion-installation-building" class="installation-accordion">
+
+                            <h1 id="accordion-building">Building QOwnNotes</h1>
+                            <div>
+                                <h2>Building from GitHub</h2>
+                                <p>
+                                    You can also build QOwnNotes yourself from the source code.<br />
+                                    Checkout the code directly from the git repository:
+                                </p>
+                                <code>
+                                    git clone https://github.com/pbek/QOwnNotes.git -b master<br />
+                                    cd QOwnNotes<br />
+                                    git submodule update --init
+                                </code>
+                                <p>
+                                    Then download <a rel="nofollow" href="https://www.qt.io/download-open-source" target="_blank">Qt Creator</a>,
+                                    open the project file <code class="inline">src/QOwnNotes.pro</code> and click on
+                                    <strong>Build</strong> / <strong>Build Project QOwnNotes</strong>.
+                                </p>
+                                <p>
+                                    Or you can build it directly in your terminal:
+                                </p>
+                                <code>
+                                    cd src<br />
+                                    qmake<br />
+                                    make
+                                </code>
+                                <p>
+                                    Please feel free to contribute source code to this project, make suggestions or
+                                    report troubles on the <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/issues" target="_blank">QOwnNotes issues page</a>.
+                                </p>
+                                <p>
+                                    Visit <a rel="nofollow" href="https://github.com/pbek/QOwnNotes" target="_blank">QOwnNotes on GitHub</a>.
+                                </p>
+                                <p>
+                                    If you want to contribute source code to the project please make your pull requests
+                                    to the <code class="inline">develop</code> branch.
+                                </p>
+
+                                <h2>Source archive</h2>
+                                <p>
+                                    You will find source archives of QOwnNotes on
+                                    <a rel="nofollow" href="https://download.tuxfamily.org/qownnotes/src/" target="_blank">QOwnNotes source archive</a>.
+                                </p>
+                                <p>
+                                    The source archives will be accessible like that:<br />
+                                    <code class="inline">https://download.tuxfamily.org/qownnotes/src/qownnotes-19.5.3.tar.xz</code>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        If you have problems with the packages or repositories please report them at the <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/issues" target="_blank">QOwnNotes issues page</a>.
+                    </p>
+                </div>
+            </div>
+                    </div>
+        <div class="item-border"><span></span></div>
+        <div class="banner">
+            <p>
+                If you like QOwnNotes and want to <strong>donate</strong> to the project feel free to do so.
+            </p>
+            <p>
+    You can <strong>donate money via PayPal</strong> by clicking this button:
+</p>
+<form id="paypal-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYClSESytpc+57RneGANkvgpynJQwhjtx5qb+9azhNZlbJLEZFfGszXuOHILXApfDm9yHzZUpen5h+fmyeSZ1CtgRHdxsYYapRnl/BEkN16uFwe2Tzo14BNPJKGN+EnaqbpyDHzVmAwc7Ir4zHTuIKBYwFZjln14TFBXf13qMoDgszELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIf0Vv0xqzZdCAgYgLe1RfLReNloTT+MtMRifuvi1LC3i+0I9aojJ/Ah5GF6vzh1iJguE6YiLdsoXMzWODIR64G4JPdXSsybo+7fl3ZSiprY2c1vuiD57aK4BXm9VQ0/BqgznpFYb6wHf5Wddn16JLJXHRky0pMuQTAwOiG4SfWIS0N0mTIR10z21cAo1GuG7UopKWoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTYwODIzMTQ1OTA1WjAjBgkqhkiG9w0BCQQxFgQUjEi3rEC+DxXke6rxTJpEojyNqoEwDQYJKoZIhvcNAQEBBQAEgYCBn6Tqe+Z1VOB1Z7d4oZvb6ZNQ3OgZGUem/jIVGxqdquIAvW777fNMnM2m+GO8QFQhrXYlqPhwhUu4ZlAIVaWYMGhwFOzoQzX66nQaRHI4VZG8L54x/iTKR/BQ6c7no+TvAnNlvgJ3frE/ZCi2Xb6YkmEN4SGgONdpfKg2LT+vJw==-----END PKCS7-----
+">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+</form>
+            <p>
+    You can <strong>donate money via Liberapay</strong> by clicking this button:
+</p>
+<p>
+    <script src="https://liberapay.com/pbek/widgets/button.js"></script>
+    <noscript><a href="https://liberapay.com/pbek/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+</p>
+            <p>
+    You can <strong>donate Bitcoin BTC</strong> to this Bitcoin BTC address: <code>395NiU7QKpNiayWgRrUEGZDn8Z1ebMx8CH</code>
+</p>
+<p>
+    You can <strong>donate Bitcoin Cash</strong> to this Bitcoin Cash address: <code>qpk3m6putywwad9sycz9hny5azs7dz67x5jrqmcelq</code>
+</p>
+<p>
+    You can <strong>donate Etherium ETH</strong> to this Etherium ETH address: <code>0x992aD2066640C5bF175c7c5649a41827dF6f87C9</code>
+</p>
+<p>
+    You can <strong>donate Etherium ETC</strong> to this Etherium ETC address: <code>0xcC809a58637372EaC340E53767649cdc5C53cA0D</code>
+</p>
+        </div>
+        <div class="banner">
+                <div class="widget" id="banner">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- bekerle.com responsive -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9106433327089523"
+             data-ad-slot="7070321699"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+        </div>
+    </section>
+
+    <script>
+        $(function() {
+            $( "div.installation-accordion" ).accordion({
+                active: false,
+                collapsible: true,
+                heightStyle: "content"
+            });
+
+            // move Windows or macOS accordion on the top on that operating systems
+            if (navigator.appVersion.indexOf("Win") !== -1) $( "#accordion-installation-windows" ).prependTo($( "#accordion-installation" ));
+            if (navigator.appVersion.indexOf("Mac") !== -1) $( "#accordion-installation-macos" ).prependTo($( "#accordion-installation" ));
+
+            // open the accordion if a hash was provided
+            var hash = window.location.hash.substring(1);
+            if ( hash != "" ) {
+                $('#accordion-' + hash).click();
+            }
+        });
+    </script>
+            </div>
+
+            <a id="up"></a>
+        </div>
+    </div>
+    <div class="row-wrap wrapper light_skin">
+        <div class="row-space">
+            <div class="copyright">
+                &copy; 2020 by <a target="_blank" title="Web-Development Patrizio Bekerle" href="//www.bekerle.com">Patrizio Bekerle</a> | <a title="Donate to QOwnNotes" href="/donate">Donate</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal"></div>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="https://polldaddy.com/survey.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        polldaddy.add( {
+            type: 'slider',
+            embed: 'poll',
+            delay: 100,
+            visit: 'single',
+            id: 9309350
+        } );
+    </script>
+        <script type="text/javascript">
+        window.___gcfg = {lang: 'en-GB'};
+
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57c12264c6276e60"></script>
+</body>
+</html>

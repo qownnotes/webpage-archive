@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QOwnNotes Blog</title>
+    <link>http://www.qownnotes.org/</link>
+    <description/>
+    <language>en-GB</language>
+    <managingEditor>office+admin@bekerle.com (Patrizio Bekerle)</managingEditor>
+    <pubDate>Tue, 06 Oct 2020 19:02:35 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2020 19:02:34 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <image>
+      <url>http://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux_rss.png</url>
+      <title>QOwnNotes Blog</title>
+      <link>http://www.qownnotes.org/</link>
+    </image>
+    <atom:link href="http://www.qownnotes.org/rss/feed/qownnotes-blog" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Time Flies Podcast episode with interview about QOwnNotes</title>
+      <link>http://www.qownnotes.org/Blog/Time-Flies-Podcast-episode-with-interview-about-QOwnNotes</link>
+      <description>&lt;p&gt;A few weeks ago &lt;i&gt;Santi Younger&lt;/i&gt; interviewed me in his Podcast &lt;a href="https://anchor.fm/time-flies" target="_blank"&gt;Time Flies&lt;/a&gt;&amp;nbsp;about QOwnNotes.&lt;/p&gt;&lt;p&gt;Check out the episode&amp;nbsp;&lt;a href="https://anchor.fm/time-flies/episodes/35--The-Best-Free-Note-Taking-App--Interview-with-Patrizio-Bekerle-Creator-of-QOwnNotes-e4rb3k/a-ak60in" target="_blank"&gt;#35 -The Best Free Note Taking App -Interview with Patrizio Bekerle (Creator of QOwnNotes)&lt;/a&gt;&amp;nbsp;if you want to listen to the interview.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/time-flies/5909-1-eng-GB/Time-Flies_reference.jpg" width="400" height="400"  style="border: 0px solid ;" alt="Time Flies" title="Time Flies" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">6e4d9354095c485dad500599e42d660a</guid>
+      <pubDate>Mon, 12 Aug 2019 16:45:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bookmark management with QOwnNotes and Web Companion browser extension</title>
+      <link>http://www.qownnotes.org/Blog/Bookmark-management-with-QOwnNotes-and-Web-Companion-browser-extension</link>
+      <description>&lt;p&gt;If you want to take a look at the first release of the&lt;b&gt;&amp;nbsp;bookmark management&lt;/b&gt;&amp;nbsp;capabilities of QOwnNotes and the&amp;nbsp;&lt;a href="https://github.com/qownnotes/web-companion/" target="_blank"&gt;&lt;b&gt;Web Companion browser extension&lt;/b&gt;&lt;/a&gt;&amp;nbsp;install the latest release of the extension from the&amp;nbsp;&lt;a href="https://chrome.google.com/webstore/detail/qownnotes-web-companion/pkgkfnampapjbopomdpnkckbjdnpkbkp" target="_blank"&gt;Chrome Web Store&lt;/a&gt;&amp;nbsp;or the&amp;nbsp;&lt;a href="https://addons.mozilla.org/firefox/addon/qownnotes-web-companion" target="_blank"&gt;Firefox Add-ons page&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Don't forget to update your installation of QOwnNotes as well!&lt;/p&gt;&lt;p&gt;For more information about the &lt;b&gt;syntax&lt;/b&gt; of the &lt;b&gt;bookmark links&lt;/b&gt; and everything else please visit the&amp;nbsp;&lt;b&gt;&lt;a href="https://www.qownnotes.org/Knowledge-base/QOwnNotes-Web-Companion-browser-extension" target="_self"&gt;QOwnNotes Web Companion browser extension&lt;/a&gt;&lt;/b&gt;&amp;nbsp;knowledge page entry.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-web-companion-bookmarks/5854-1-eng-GB/qownnotes-web-companion-bookmarks_reference.png" width="600" height="420"  style="border: 0px solid ;" alt="qownnotes-web-companion-bookmarks" title="qownnotes-web-companion-bookmarks" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">64c6664b0104b4f9d5a63a8f070075e2</guid>
+      <pubDate>Wed, 16 Jan 2019 18:26:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Firefox extension on Firefox Add-ons page</title>
+      <link>http://www.qownnotes.org/Blog/Firefox-extension-on-Firefox-Add-ons-page</link>
+      <description>&lt;p&gt;The&amp;nbsp;&lt;a href="https://github.com/qownnotes/web-companion" target="_blank"&gt;QOwnNotes Web Companion browser extension&lt;/a&gt;&amp;nbsp;is now available on the &lt;b&gt;&lt;a href="https://addons.mozilla.org/firefox/addon/qownnotes-web-companion/" target="_blank"&gt;Firefox Add-ons page&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;It was completely rewritten with generator-web-extension, webextension-toolbox, webpack and VueJS.&lt;/p&gt;&lt;a name="eztoc5831_0_1" id="eztoc5831_0_1"&gt;&lt;/a&gt;&lt;h3&gt;Current features&lt;/h3&gt;
+&lt;ul&gt;
+
+&lt;li&gt;creating a new note (only text) from the&amp;nbsp;&lt;b&gt;current selection&lt;/b&gt;&amp;nbsp;by right-clicking it&lt;/li&gt;
+
+&lt;li&gt;creating a new note from the content of the&amp;nbsp;&lt;b&gt;current webpage&lt;/b&gt;&amp;nbsp;by right-clicking on the page
+&lt;ul&gt;
+
+&lt;li&gt;the html will be converted to markdown and images of the page will be downloaded (might take a while)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;creating a new note with a&amp;nbsp;&lt;b&gt;screenshot&lt;/b&gt;&amp;nbsp;of the visible part of the current webpage by right-clicking on the page&lt;/li&gt;
+
+&lt;li&gt;there is a browser option page to set and reset the server socket port&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">646caf9e7d5f0caf01992edabca91c2d</guid>
+      <pubDate>Wed, 09 Jan 2019 05:50:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chrome extension in Chrome Web Store</title>
+      <link>http://www.qownnotes.org/Blog/Chrome-extension-in-Chrome-Web-Store</link>
+      <description>&lt;p&gt;The&amp;nbsp;&lt;a href="https://github.com/qownnotes/chrome-web-companion" target="_blank"&gt;QOwnNotes Web Companion Chrome extension&lt;/a&gt;&amp;nbsp;is now available in the&amp;nbsp;&lt;a href="https://chrome.google.com/webstore/detail/qownnotes-web-companion/pkgkfnampapjbopomdpnkckbjdnpkbkp" target="_blank"&gt;Chrome Web Store&lt;/a&gt;.&lt;/p&gt;&lt;a name="eztoc5811_0_1" id="eztoc5811_0_1"&gt;&lt;/a&gt;&lt;h3&gt;Current features&lt;/h3&gt;
+&lt;ul&gt;
+
+&lt;li&gt;creating a new note (only text) from the&amp;nbsp;&lt;b&gt;current selection&lt;/b&gt;&amp;nbsp;by right-clicking it&lt;/li&gt;
+
+&lt;li&gt;creating a new note from the content of the&amp;nbsp;&lt;b&gt;current webpage&lt;/b&gt;&amp;nbsp;by right-clicking on the page
+&lt;ul&gt;
+
+&lt;li&gt;the html will be converted to markdown and images of the page will be downloaded (might take a while)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;creating a new note with a&amp;nbsp;&lt;b&gt;screenshot&lt;/b&gt;&amp;nbsp;of the visible part of the current webpage by right-clicking on the page&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">e941ba0c2f3bc992c1df4edd7712f3bf</guid>
+      <pubDate>Mon, 31 Dec 2018 11:01:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes Web Companion Chrome extension</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-Web-Companion-Chrome-extension</link>
+      <description>&lt;p&gt;In version 18.12.7 I added support for the new rudimentary&amp;nbsp;&lt;a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank"&gt;QOwnNotes Web Companion &lt;/a&gt;&lt;a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank"&gt;Chrome&lt;/a&gt;&amp;nbsp;&lt;a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank"&gt;extension&lt;/a&gt;&amp;nbsp;to add selected text as new note!&lt;/p&gt;&lt;p&gt;You can download the current release of the extension at&amp;nbsp;&lt;a href="https://github.com/qownnotes/chrome-web-companion/releases/tag/18.12.0" target="_blank"&gt;QOwnNotes Chrome Web Companion 18.12.0&lt;/a&gt;, just drop the file into Chrome to install the extension.&lt;/p&gt;&lt;p&gt;Please head over to&amp;nbsp;&lt;a href="https://github.com/pbek/QOwnNotes/issues/330" target="_blank"&gt;#330&lt;/a&gt;&amp;nbsp;to comment on the development process.&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">2d83fb4799464298c589b8bbdd3340b5</guid>
+      <pubDate>Thu, 27 Dec 2018 11:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>500th release of QOwnNotes</title>
+      <link>http://www.qownnotes.org/Blog/500th-release-of-QOwnNotes</link>
+      <description>&lt;p&gt;Right for Christmas comes&amp;nbsp;&lt;i&gt;version 18.12.5&lt;/i&gt;, the &lt;b&gt;500th release of QOwnNotes&lt;/b&gt;!&lt;/p&gt;&lt;p&gt;A lot has changed between the first release in end of 2014 and now over the course of 3593 commits. The &lt;a href="https://www.qownnotes.org/changelog/QOwnNotes" target="_self"&gt;changelog&lt;/a&gt; will tell you the (almost) whole story.&lt;/p&gt;&lt;p&gt;Thank you for your support in the last years!&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">0b451b1671c5b47e3304c5162077e2e1</guid>
+      <pubDate>Sun, 23 Dec 2018 15:24:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes Telegram Group</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-Telegram-Group</link>
+      <description>&lt;p&gt;Join the new QOwnNotes Telegram Group at&amp;nbsp;&lt;a href="tg://resolve?domain=QOwnNotes" target="_blank"&gt;https://t.me/QOwnNotes&lt;/a&gt;!&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">bc6cb2833b45bf01aebde47097858813</guid>
+      <pubDate>Fri, 05 Oct 2018 12:47:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vim mode</title>
+      <link>http://www.qownnotes.org/Blog/Vim-mode</link>
+      <description>&lt;p&gt;There now is a &lt;b&gt;Vim mode&lt;/b&gt; in QOwnNotes. You can turn it on the the &lt;i&gt;Panel settings&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Please test it and report back on &lt;a href="https://github.com/pbek/QOwnNotes/issues/205" target="_blank"&gt;#205&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">d8d08fe91971a105108ea1eadaa2f411</guid>
+      <pubDate>Tue, 07 Aug 2018 16:52:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes for openSUSE Leap 15, SUSE Linux Enterprise 15 and SUSE Linux Enterprise 12 SP3</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-for-openSUSE-Leap-15-SUSE-Linux-Enterprise-15-and-SUSE-Linux-Enterprise-12-SP3</link>
+      <description>&lt;p&gt;There now are releases of&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;for&amp;nbsp;&lt;b&gt;openSUSE Leap 15&lt;/b&gt;,&lt;b&gt;&amp;nbsp;SUSE Linux Enterprise 15&amp;nbsp;&lt;/b&gt;and&lt;b&gt;&amp;nbsp;SUSE Linux Enterprise 12 SP3&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#openSUSE" target="_blank"&gt;installation&lt;/a&gt;&amp;nbsp;page for more information on how to install the new releases.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.qownnotes.org/installation#openSUSE" target="_self"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                    &lt;a href="/installation#openSUSE" target="_self"&gt;        &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/opensuse/4861-1-eng-GB/openSUSE_reference.jpg" width="600" height="338"  style="border: 0px solid ;" alt="openSUSE" title="openSUSE" /&gt;
+        &lt;/a&gt;    
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;p&gt;(image by &lt;a href="https://victorhckinthefreeworld.com" target="_blank"&gt;victorhckinthefreeworld&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">30ded5a915836389dc7cc9c7c26db3ca</guid>
+      <pubDate>Thu, 29 Mar 2018 15:39:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes featured on LINUX Unplugged podcast and by Ubuntu</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-featured-on-LINUX-Unplugged-podcast-and-by-Ubuntu</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt; did get&amp;nbsp;some attention lately. It&amp;nbsp;got featured on &lt;a href="https://youtu.be/om6iJFnqpI8?t=13m54s" target="_blank"&gt;LINUX Unplugged podcast 231&lt;/a&gt;, &lt;a href="https://twitter.com/ubuntu/status/951472292495876096" target="_blank"&gt;@ubuntu&lt;/a&gt;&amp;nbsp;and &lt;a href="https://twitter.com/snapcraftio/status/951109910410027010" target="_blank"&gt;@snapcraft&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Update: QOwnNotes was also mentioned in the&amp;nbsp;&lt;a href="https://mintcast.org/2018/01/08/mintcast-279-looking-back-at-2017-predictions" target="_blank"&gt;mintCast epsisode 279&lt;/a&gt;&amp;nbsp;at minute 23:09.&lt;/p&gt;&lt;p&gt;&lt;a href="https://youtu.be/om6iJFnqpI8?t=13m54s" target="_blank"&gt;&lt;a href="https://youtu.be/om6iJFnqpI8?t=13m54s" target="_blank"&gt;&lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/linux-unplugged-231/4741-1-eng-GB/LINUX-Unplugged-231_reference.jpg" alt=""
+     /&gt;&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">b4f2eb552fb6e0013f45db1555127b0c</guid>
+      <pubDate>Thu, 11 Jan 2018 16:01:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interview for ownCloud</title>
+      <link>http://www.qownnotes.org/Blog/Interview-for-ownCloud</link>
+      <description>&lt;p&gt;&lt;b&gt;Emil&lt;/b&gt; from &lt;a href="https://owncloud.org/" target="_blank"&gt;&lt;b&gt;ownCloud&lt;/b&gt;&lt;/a&gt; asked me for an interview about &lt;b&gt;QOwnNotes&lt;/b&gt;. Here are his questions and my answers.&lt;/p&gt;&lt;a name="eztoc4716_1" id="eztoc4716_1"&gt;&lt;/a&gt;&lt;h2&gt;What problem did you try to solve with QOwnNotes, why did you write it?&lt;/h2&gt;&lt;p&gt;In late 2014 I needed a way to quickly take notes with one keyboard shortcut and the current date in the filename (until I have the time to change it to something better). The notes should be stored as simple text-files in a directory so I can sync them easily. The desktop-software needs to run on &lt;b&gt;every popular operating system&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;After trying out several text-editors I found none that could really do that in the way I liked it, so I wrote my own. :)&lt;/p&gt;&lt;p&gt;I chose &lt;b&gt;Qt&lt;/b&gt;&amp;nbsp;and &lt;b&gt;C++&lt;/b&gt; as platform because as long-time KDE user I love the framework and always wanted to create a Qt application to &amp;quot;scratch my own itch&amp;quot;.&lt;/p&gt;&lt;p&gt;Since then &lt;b&gt;405 new versions&lt;/b&gt; of &lt;b&gt;QOwnNotes&lt;/b&gt; were released.&lt;/p&gt;&lt;p&gt;I cannot remember if I used &lt;b&gt;ownCloud&lt;/b&gt; before or because I created QOwnNotes, but I loved ownCloud because it was FOSS and I could host it myself and as PHP-developer it also was a great fit for me. ownCloud notes met most of my requirements for note-taking in the web at that time.&lt;/p&gt;&lt;a name="eztoc4716_2" id="eztoc4716_2"&gt;&lt;/a&gt;&lt;h2&gt;Which three QOwnNotes scripts do you consider most useful?&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;I love scripts to create new notes from text I copied from web-applications like &lt;b&gt;Note from Jira issue&lt;/b&gt; and &lt;b&gt;Note from Bitrix24 task&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;others like the script &lt;b&gt;@tag tagging in note text&lt;/b&gt; because with it they can store their tags inside the notes&lt;/li&gt;
+
+&lt;li&gt;if you need to modify the way the user-interface looks you can do so with &lt;b&gt;Custom user interface styling&lt;/b&gt; or &lt;b&gt;Custom note preview styling&lt;/b&gt; if you want to do the same with the preview&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;a name="eztoc4716_3" id="eztoc4716_3"&gt;&lt;/a&gt;&lt;h2&gt;What do you have to know to write a QOwnNotes script?&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Scripts&lt;/b&gt; are written in &lt;b&gt;JavaScript&lt;/b&gt; (inside QML files). There are a lot of examples on &lt;a href="https://github.com/pbek/QOwnNotes/tree/develop/doc/scripting" target="_self"&gt;https://github.com/pbek/QOwnNotes/tree/develop/doc/scripting&lt;/a&gt; and you can always use the scripting repository at &lt;a href="https://github.com/qownnotes/scripts" target="_self"&gt;https://github.com/qownnotes/scripts&lt;/a&gt; as reference for new scripts.&lt;/p&gt;&lt;p&gt;There is a documentation of all the API calls on &lt;a href="http://docs.qownnotes.org" target="_self"&gt;http://docs.qownnotes.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You can use as many private and local scripts as you like and if you want make a script public you can create a pull-request on &lt;a href="https://github.com/qownnotes/scripts" target="_self"&gt;https://github.com/qownnotes/scripts&lt;/a&gt;.&lt;/p&gt;&lt;a name="eztoc4716_4" id="eztoc4716_4"&gt;&lt;/a&gt;&lt;h2&gt;How secure is your encryption of the notes, what algorithm do you use?&lt;/h2&gt;&lt;p&gt;Note &lt;b&gt;encryption&lt;/b&gt; is by default done by the &lt;a href="http://botan.randombit.net/" target="_self"&gt;Botan library&lt;/a&gt; with &lt;b&gt;AES-256&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;You can also use your &lt;a href="http://docs.qownnotes.org/en/develop/scripting/README.html#encryptionhook" target="_self"&gt;own encryption&lt;/a&gt; with the help of the scripting engine. There are already scripts for encrypting notes with &lt;b&gt;PGP&lt;/b&gt; (PGP Encryption) or &lt;a href="https://keybase.io/" target="_self"&gt;Keybase&lt;/a&gt; (Keybase Encryption).&lt;/p&gt;&lt;p&gt;I guess the main weak point of the encryption would be the password you are using to encrypt a note.&lt;/p&gt;&lt;a name="eztoc4716_5" id="eztoc4716_5"&gt;&lt;/a&gt;&lt;h2&gt;What data wouldn't you trust it with?&lt;/h2&gt;&lt;p&gt;If you encrypt a note you loose the ability to find text in it with the note-search functionality, because the encrypted note-text is stored base64-encoded in the note text-file. The headline isn't encrypted.&lt;/p&gt;&lt;a name="eztoc4716_6" id="eztoc4716_6"&gt;&lt;/a&gt;&lt;h2&gt;Do you plan to include more Code highlighting?&lt;/h2&gt;&lt;p&gt;Only for the preview if a fully fledged browser will be used for the preview somewhere in the future, which would have advantages (usage of JavaScript libraries in the preview, fewer html rendering errors) and disadvantages (bad backward compatibility, issues with printing/exporting, larger applications size, larger memory footprint, possibly slower rendering speed).&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">b3d86ff8f2e2b784873b676f3997b3b8</guid>
+      <pubDate>Tue, 12 Dec 2017 12:10:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes for Fedora 27</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-for-Fedora-27</link>
+      <description>&lt;p&gt;There now is a &lt;b&gt;QOwnNotes&lt;/b&gt; release for&amp;nbsp;&lt;b&gt;Fedora Linux 27&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Visit the &lt;a href="https://www.qownnotes.org/installation#Fedora" target="_self"&gt;installation&lt;/a&gt; page for more information on how to install the &lt;b&gt;Fedora 27&lt;/b&gt;&amp;nbsp;release of QOwnNotes.&lt;/p&gt;&lt;p&gt;Note: There is no debug build for Fedora 27, because &lt;a href="https://build.opensuse.org/package/show/home:pbek:QOwnNotes/desktop" target="_blank"&gt;OBS&lt;/a&gt; had problems building it.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/fedora-27/4701-1-eng-GB/Fedora-27_reference.jpg" width="600" height="348"  style="border: 0px solid ;" alt="Fedora 27" title="Fedora 27" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="http://www.fosslinux.com" target="_blank"&gt;www.fosslinux.com&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">1d06288a83c7c6b9ef046b2cd9104ffc</guid>
+      <pubDate>Fri, 24 Nov 2017 10:26:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes reviewed in German magazine c't</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-reviewed-in-German-magazine-c-t</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;got reviewed in the German magazine&amp;nbsp;&lt;b&gt;c't&lt;/b&gt;, issue&amp;nbsp;21/17 on page 70!&lt;/p&gt;&lt;p&gt;You will find the article in the print magazine or here:&amp;nbsp;&lt;a href="https://www.heise.de/ct/ausgabe/2017-21-Notizverwaltung-QOwnNotes-17-09-6-3840130.html" target="_blank"&gt;Cloud-Notizen&lt;/a&gt;&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-c-t/4646-1-eng-GB/QOwnNotes-c-t_reference.jpg" width="600" height="450"  style="border: 0px solid ;" alt="QOwnNotes c't" title="QOwnNotes c't" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">c2eff185541911fceda063de6948c016</guid>
+      <pubDate>Sun, 01 Oct 2017 07:03:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotesAPI in the ownCloud Marketplace</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotesAPI-in-the-ownCloud-Marketplace</link>
+      <description>&lt;p&gt;The ownCloud / Nextcloud API application&lt;b&gt;&amp;nbsp;QOwnNotesAPI&lt;/b&gt;&amp;nbsp;for QOwnNotes&amp;nbsp;is now available&amp;nbsp;in the&amp;nbsp;&lt;a href="https://marketplace.owncloud.com/apps/qownnotesapi" target="_blank"&gt;ownCloud Marketplace&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You will find it here: &lt;a href="https://marketplace.owncloud.com/apps/qownnotesapi" target="_blank"&gt;QOwnNotesAPI Marketplace page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;If you are interested in&amp;nbsp;&lt;i&gt;OwnBackup&lt;/i&gt;, the simple database backup solutions for your ownCloud or Nextcloud installation, you can also find it in the ownCloud Marketplace:&amp;nbsp;&lt;a href="https://marketplace.owncloud.com/apps/ownbackup" target="_blank"&gt;OwnBackup&amp;nbsp;Marketplace page&lt;/a&gt;&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotesapi-owncloud-marketplace/4576-1-eng-GB/QOwnNotesAPI-ownCloud-Marketplace_reference.jpg" width="600" height="429"  style="border: 0px solid ;" alt="QOwnNotesAPI ownCloud Marketplace" title="QOwnNotesAPI ownCloud Marketplace" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">40364d9d99845cc975a1ca2407c3b0af</guid>
+      <pubDate>Wed, 05 Jul 2017 13:44:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes as AppImage</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-as-AppImage</link>
+      <description>&lt;p&gt;There now are releases of&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;as&amp;nbsp;&lt;b&gt;AppImage&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Visit the &lt;a href="https://www.qownnotes.org/installation#AppImage" target="_self"&gt;installation&lt;/a&gt; page for more information on how to install the new release.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/appimage/4561-1-eng-GB/AppImage_reference.jpg" width="600" height="274"  style="border: 0px solid ;" alt="AppImage" title="AppImage" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by &lt;a href="http://appimage.org/" target="_blank"&gt;appimage.org&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">74d25a2d1c4695388dbdaa736bfec82e</guid>
+      <pubDate>Mon, 03 Jul 2017 15:52:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes for Debian 9.0, Fedora 26 and openSUSE Leap 42.3</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-for-Debian-9.0-Fedora-26-and-openSUSE-Leap-42.3</link>
+      <description>&lt;p&gt;There now are releases of &lt;b&gt;QOwnNotes&lt;/b&gt; for&amp;nbsp;&lt;b&gt;Debian Linux 9.0&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Fedora 26&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;openSUSE Leap 42.3&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Visit the &lt;a href="https://www.qownnotes.org/installation#Fedora" target="_self"&gt;installation&lt;/a&gt; page for more information on how to install the new releases.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/debian-9.0/4541-1-eng-GB/Debian-9.0_reference.jpg" width="600" height="338"  style="border: 0px solid ;" alt="Debian 9.0" title="Debian 9.0" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by &lt;a href="http://news.softpedia.com" target="_blank"&gt;Softpedia News&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">08bf417be8d35a95870e0b55b12885dd</guid>
+      <pubDate>Mon, 26 Jun 2017 18:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Script repository and script settings variables</title>
+      <link>http://www.qownnotes.org/Blog/Script-repository-and-script-settings-variables</link>
+      <description>&lt;p&gt;In the latest release&amp;nbsp;17.05.7 of &lt;b&gt;QOwnNotes&lt;/b&gt; you are now able to&lt;b&gt;&amp;nbsp;download scripts directly from the new&amp;nbsp;&lt;a href="https://github.com/qownnotes/scripts" target="_blank"&gt;script repository&lt;/a&gt;&lt;/b&gt; inside of the application.&lt;/p&gt;&lt;p&gt;Furthermore as a developer&amp;nbsp;you can now&amp;nbsp;&lt;b&gt;register settings variables&lt;/b&gt;&amp;nbsp;in&amp;nbsp;&lt;b&gt;scripts&lt;/b&gt;. This allows you to let the user configure your script in the script settings.&lt;/p&gt;&lt;p&gt;A &lt;b&gt;lot of new&lt;/b&gt; useful &lt;b&gt;scripts&lt;/b&gt; were &lt;b&gt;added to the script repository&lt;/b&gt;, which&amp;nbsp;now can be &lt;b&gt;configured&lt;/b&gt; with the script settings variables.&lt;/p&gt;&lt;p&gt;There are now scripts directly available to&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;b&gt;encrypt&lt;/b&gt; your &lt;b&gt;notes&lt;/b&gt; with &lt;b&gt;PGP&lt;/b&gt; or &lt;b&gt;Keybase&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;create notes from &lt;b&gt;Jira&lt;/b&gt; issues or &lt;b&gt;Bitrix24&lt;/b&gt; tasks&lt;/li&gt;
+
+&lt;li&gt;transform selected note text to &lt;b&gt;Jira Code&lt;/b&gt; or &lt;b&gt;BBCode&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;show &lt;b&gt;statistics&lt;/b&gt; about your &lt;b&gt;note&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;paste &lt;b&gt;Latex&lt;/b&gt; code as image&lt;/li&gt;
+
+&lt;li&gt;modify the &lt;b&gt;styling&lt;/b&gt; of the &lt;b&gt;user interface&lt;/b&gt; of the application or the &lt;b&gt;styling&lt;/b&gt; of the &lt;b&gt;note preview&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;create &lt;b&gt;journal&lt;/b&gt;&amp;nbsp;or &lt;b&gt;meeting&lt;/b&gt; notes&lt;/li&gt;
+
+&lt;li&gt;insert a headline and a link to the &lt;b&gt;GitHub issue&lt;/b&gt; from an url in the clipboard&lt;/li&gt;
+
+&lt;li&gt;&lt;b&gt;favorite&lt;/b&gt; notes&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Feel free to &lt;b&gt;add your own scripts&lt;/b&gt; to the script repository. You will find a &lt;b&gt;guide&lt;/b&gt; on how to do so at the&amp;nbsp;&lt;b&gt;&lt;a href="https://github.com/qownnotes/scripts" target="_blank"&gt;QOwnNotes script repository&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/script-repository/4491-1-eng-GB/Script-repository_imagelarge.png" width="448" height="344"  style="border: 0px solid ;" alt="Script repository" title="Script repository" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/script-settings-variables/4496-1-eng-GB/Script-settings-variables_imagelarge.png" width="448" height="344"  style="border: 0px solid ;" alt="Script settings variables" title="Script settings variables" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">e3e0d3bbc95bad1aa19bdb85e63f5b95</guid>
+      <pubDate>Fri, 19 May 2017 17:29:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fedora 25 release and new documentation page</title>
+      <link>http://www.qownnotes.org/Blog/Fedora-25-release-and-new-documentation-page</link>
+      <description>&lt;p&gt;There now is a &lt;b&gt;QOwnNotes&lt;/b&gt; release for&amp;nbsp;&lt;b&gt;Fedora Linux 25&lt;/b&gt;&amp;nbsp;and a&amp;nbsp;&lt;b&gt;new documentation page&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Visit the &lt;a href="https://www.qownnotes.org/installation#Fedora" target="_self"&gt;installation&lt;/a&gt; page for more information on how to install the &lt;b&gt;Fedora 25&lt;/b&gt; release of QOwnNotes.&lt;/p&gt;&lt;p&gt;
+The &lt;b&gt;new documentation page&lt;/b&gt; you will find on&amp;nbsp;&lt;b&gt;&lt;a href="http://docs.qownnotes.org/" target="_blank"&gt;docs.qownnotes.org&lt;/a&gt;&lt;/b&gt;. It currently mainly exists of the scripting documentation.&lt;br /&gt;If you want to &lt;b&gt;help&lt;/b&gt; writing documentation you can add &lt;b&gt;reStrucuturedText files&lt;/b&gt; in the &lt;a href="https://github.com/pbek/QOwnNotes/tree/develop/doc" target="_blank"&gt;documentation folder on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/fedora-25/4356-1-eng-GB/Fedora-25_reference.jpg" width="600" height="333"  style="border: 0px solid ;" alt="Fedora 25" title="Fedora 25" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="https://fossbytes.com" target="_blank"&gt;fossbytes.com&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">16d86280408866c344bdcc0a05ab7748</guid>
+      <pubDate>Tue, 20 Dec 2016 16:05:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solus package for QOwnNotes</title>
+      <link>http://www.qownnotes.org/Blog/Solus-package-for-QOwnNotes</link>
+      <description>&lt;p&gt;There now is a &lt;b&gt;QOwnNotes&lt;/b&gt; package for &lt;b&gt;&lt;a href="https://solus-project.com/" target="_blank"&gt;Solus&lt;/a&gt;&lt;/b&gt;!&lt;/p&gt;&lt;p&gt;Please visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#Solus" target="_self"&gt;QOwnNotes installation page&lt;/a&gt;&amp;nbsp;for details on how to use it.&lt;/p&gt;&lt;p&gt;A big thank you to&amp;nbsp;&lt;b&gt;Joshua Strobl&lt;/b&gt; on&amp;nbsp;&lt;a href="https://dev.solus-project.com/T1687" target="_self"&gt;⚓ T1687 QOwnNotes&lt;/a&gt; for packaging QOwnNotes for the unstable repository of Solus.&lt;/p&gt;&lt;p&gt;Edit 2016-11-25: QOwnNotes is now in the Solus &lt;b&gt;main repository&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/solus-project/4309-1-eng-GB/Solus-Project_reference.png" width="600" height="399"  style="border: 0px solid ;" alt="Solus Project" title="Solus Project" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="https://solus-project.com/" target="_blank"&gt;Solus Project&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">d2e1df8eb3c31ed40d6d50fbc83ef9d3</guid>
+      <pubDate>Wed, 23 Nov 2016 15:41:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatic updates in Windows and macOS</title>
+      <link>http://www.qownnotes.org/Blog/Automatic-updates-in-Windows-and-macOS</link>
+      <description>&lt;p&gt;QOwnNotes can now do&amp;nbsp;&lt;b&gt;automatic updates&lt;/b&gt;&amp;nbsp;in&amp;nbsp;&lt;b&gt;Windows&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;macOS&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;In the update dialog you will see a new&amp;nbsp;&lt;b&gt;Update&lt;/b&gt;&amp;nbsp;button. If you press it the application will quit after a confirmation and a script will be loaded to &lt;b&gt;update to the latest version&lt;/b&gt; of QOwnNotes.&lt;/p&gt;&lt;p&gt;After the update QOwnNotes will be started again.&lt;/p&gt;
+&lt;div class="object-right"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/debug-options/4271-1-eng-GB/Debug-options_medium.png" width="200" height="140"  style="border: 0px solid ;" alt="Debug options" title="Debug options" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Please use the checkbox&amp;nbsp;&lt;b&gt;&lt;i&gt;Fake old version number&lt;/i&gt;&lt;/b&gt; in the &lt;b&gt;Debug options&lt;/b&gt;&amp;nbsp;to trigger an update and click&amp;nbsp;&lt;b&gt;&lt;i&gt;Check for updates&lt;/i&gt;&lt;/b&gt;&amp;nbsp;in the&amp;nbsp;&lt;i&gt;Help&lt;/i&gt;&amp;nbsp;main menu to &lt;b&gt;test the update process&lt;/b&gt; and &lt;b&gt;provide feedback&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Under &lt;b&gt;macOS&lt;/b&gt;&amp;nbsp;please use this issue for feedback: &lt;a href="https://github.com/pbek/QOwnNotes/issues/102" target="_self"&gt;Issue #102&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Under&amp;nbsp;&lt;b&gt;Windows&lt;/b&gt;&amp;nbsp;please use this issue for feedback:&amp;nbsp;&lt;a href="https://github.com/pbek/QOwnNotes/issues/376" target="_self"&gt;Issue #376&lt;/a&gt;&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-updater/4266-1-eng-GB/QOwnNotes-updater_reference.png" width="600" height="508"  style="border: 0px solid ;" alt="QOwnNotes updater" title="QOwnNotes updater" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">69edde9802e4623d8addb67415d799c4</guid>
+      <pubDate>Sat, 05 Nov 2016 10:51:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Note encryption with keybase.io or directly with PGP</title>
+      <link>http://www.qownnotes.org/Blog/Note-encryption-with-keybase.io-or-directly-with-PGP</link>
+      <description>&lt;p&gt;You now can use your&amp;nbsp;&lt;b&gt;custom method&lt;/b&gt;&amp;nbsp;to&amp;nbsp;&lt;b&gt;encrypt and decrypt notes&lt;/b&gt;&amp;nbsp;via the scripting engine (for&amp;nbsp;&lt;a href="https://github.com/pbek/QOwnNotes/issues/334" target="_self"&gt;Issue #334&lt;/a&gt;).&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;you can use the new scripting hook&amp;nbsp;encryptionHook()&amp;nbsp;do implement your own encryption&lt;/li&gt;
+
+&lt;li&gt;there are examples to encrypt notes with&amp;nbsp;&lt;b&gt;&lt;a href="https://keybase.io/" target="_self"&gt;Keybase.io&lt;/a&gt;&lt;/b&gt;&amp;nbsp;(&lt;a href="https://github.com/pbek/QOwnNotes/blob/develop/doc/scripting/encryption-keybase.qml" target="_self"&gt;encryption-keybase.qml&lt;/a&gt;),&amp;nbsp;&lt;b&gt;PGP&lt;/b&gt;&amp;nbsp;(&lt;a href="https://github.com/pbek/QOwnNotes/blob/develop/doc/scripting/encryption-pgp.qml" target="_self"&gt;encryption-pgp.qml&lt;/a&gt;) or do a trivial &amp;quot;encryption&amp;quot; with ROT13 (&lt;a href="https://github.com/pbek/QOwnNotes/blob/develop/doc/scripting/encryption-rot13.qml" target="_self"&gt;encryption-rot13.qml&lt;/a&gt;)&lt;/li&gt;
+
+&lt;li&gt;you can disable the password dialog with script.encryptionDisablePassword()&lt;/li&gt;
+
+&lt;li&gt;to start an external synchronous process you can usescript.startSynchronousProcess()&lt;/li&gt;
+
+&lt;li&gt;to check on which platform the script is running you can use&amp;nbsp;script.platformIsLinux(),&amp;nbsp;script.platformIsOSX()&amp;nbsp;and script.platformIsWindows()&lt;/li&gt;
+
+&lt;li&gt;for more information on the new commands please take a look at the&amp;nbsp;&lt;a href="http://docs.qownnotes.org/en/develop/scripting/README.html" target="_self"&gt;scripting documentation&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/keybase.io-logo/4231-1-eng-GB/keybase.io-logo_reference.png" width="512" height="512"  style="border: 0px solid ;" alt="keybase.io logo" title="keybase.io logo" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by keybase.io)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">762f8b4a00fa25f98372f412ae7b2fb9</guid>
+      <pubDate>Sun, 02 Oct 2016 10:39:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evernote import</title>
+      <link>http://www.qownnotes.org/Blog/Evernote-import</link>
+      <description>&lt;p&gt;You can now&amp;nbsp;&lt;b&gt;import&lt;/b&gt;&amp;nbsp;your&amp;nbsp;&lt;b&gt;notes&lt;/b&gt;&amp;nbsp;from&amp;nbsp;&lt;b&gt;Evernote&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;
+To do so you have to &lt;b&gt;select all your notes&lt;/b&gt; and &lt;b&gt;right click&lt;/b&gt; on them in your Evernote desktop client. Now select &lt;b&gt;&lt;i&gt;export notes&lt;/i&gt;&lt;/b&gt;&amp;nbsp;and store them to an&amp;nbsp;&lt;i&gt;enex&lt;/i&gt; file.&lt;br /&gt;Then click &lt;b&gt;&lt;i&gt;Import / Import notes from Evernote&lt;/i&gt;&lt;/b&gt; in the QOwnNotes main menu and &lt;b&gt;import&lt;/b&gt; the &lt;i&gt;enex&lt;/i&gt; &lt;b&gt;file&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Formattings like bold and italic will be converted to markdown, as are headlines and links. Images from your Evernote notes will be embedded in your QOwnNotes markdown notes.&lt;/p&gt;&lt;p&gt;You can &lt;b&gt;download QOwnNotes&lt;/b&gt; on the &lt;b&gt;&lt;a href="https://www.qownnotes.org/installation" target="_self"&gt;installation page&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/evernote-screenshot/4211-1-eng-GB/Evernote-screenshot_reference.png" width="600" height="396"  style="border: 0px solid ;" alt="Evernote screenshot" title="Evernote screenshot" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">0865e06f59c12aa2f0cccc30bf92ed24</guid>
+      <pubDate>Sat, 24 Sep 2016 15:36:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portable mode</title>
+      <link>http://www.qownnotes.org/Blog/Portable-mode</link>
+      <description>&lt;p&gt;There now is a&amp;nbsp;&lt;b&gt;portable mode&lt;/b&gt;&amp;nbsp;for &lt;b&gt;QOwnNotes&lt;/b&gt;, for example to carry around QOwnNotes on an &lt;b&gt;USB stick&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;In portable mode&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;the internal sqlite &lt;b&gt;database&lt;/b&gt; and the &lt;b&gt;settings&lt;/b&gt; will be stored inside a &lt;b&gt;&lt;i&gt;Data&lt;/i&gt; folder&lt;/b&gt; at the binary's location&lt;/li&gt;
+
+&lt;li&gt;the settings will be stored in an &lt;b&gt;ini file&lt;/b&gt;&lt;/li&gt;
+
+&lt;li&gt;the &lt;b&gt;note folders&lt;/b&gt; will be automatically stored relative to the &lt;b&gt;&lt;i&gt;Data&lt;/i&gt; folder&lt;/b&gt; so that the correct note folders will be loaded regardless where your QOwnNotes installation is currently located&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;It will be activated if you run QOwnNotes with the &lt;b&gt;parameter &lt;i&gt;--portable&lt;/i&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;On &lt;b&gt;Windows&lt;/b&gt; there is a&amp;nbsp;&lt;b&gt;&lt;i&gt;QOwnNotesPortable.exe&lt;/i&gt;&lt;/b&gt;&amp;nbsp;in your release path to start QOwnNotes in &lt;b&gt;portable mode&lt;/b&gt;.&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/portable-mode/4179-1-eng-GB/Portable-mode_reference.png" width="600" height="467"  style="border: 0px solid ;" alt="Portable mode for USB sticks" title="Portable mode for USB sticks" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+                                                        &lt;div class="attribute-caption" style="width: 600px"&gt;
+                        
+&lt;p&gt;&lt;b&gt;Portable mode&lt;/b&gt; for USB sticks&lt;/p&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">e6efcab960767f6cbd4160f6dd0ee02a</guid>
+      <pubDate>Sun, 18 Sep 2016 10:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes on webupd8.org</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-on-webupd8.org</link>
+      <description>&lt;p&gt;QOwnNotes was reviewed on&amp;nbsp;webupd8.org. You will find the article at:&amp;nbsp;&lt;a href="http://www.webupd8.org/2016/09/qownnotes-is-note-taking-and-todo-list.html" target="_blank"&gt;QOwnNotes Is A Note Taking And Todo List App That Integrates With ownCloud&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Thank you,&amp;nbsp;Lionel R. for your interventions!&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-on-webupd8.org/4159-1-eng-GB/QOwnNotes-on-webupd8.org_reference.png" width="600" height="463"  style="border: 0px solid ;" alt="QOwnNotes on webupd8.org" title="QOwnNotes on webupd8.org" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="http://www.webupd8.org/" target="_blank"&gt;webupd8.org&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">3293796fa8e56c9c37ed1d292e4639d0</guid>
+      <pubDate>Mon, 05 Sep 2016 14:29:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes featured on the Linux Voice Podcast</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-featured-on-the-Linux-Voice-Podcast</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt; was &lt;b&gt;featured on&lt;/b&gt; the &lt;b&gt;Linux Voice Podcast&lt;/b&gt;&amp;nbsp;Season 4 Episode 10&amp;nbsp;(at minute 24:50).&lt;/p&gt;&lt;p&gt;You can listen to the full episode here:&amp;nbsp;&lt;a href="https://www.linuxvoice.com/podcast-season-4-episode-10/" target="_blank"&gt;Linux Voice Podcast - Season 4 Episode 10&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linuxvoice.com" target="_blank"&gt;Linux Voice&lt;/a&gt; is really a great magazine (I subscribed to it a few month ago) and it's all about free software and free speech. You can download all back issues (Creative Commons BY-SA license) for free at &lt;a href="https://www.linuxvoice.com/creative-commons-issues/" target="_blank"&gt;back issues&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/linux-voice-podcast-logo/4073-1-eng-GB/linux-voice-podcast-logo_reference.png" width="550" height="120"  style="border: 0px solid ;" alt="linux-voice-podcast-logo" title="linux-voice-podcast-logo" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="http://www.linuxvoice.com" target="_self"&gt;www.linuxvoice.com&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">755d1bf5187d8adb392efd1bb67e469f</guid>
+      <pubDate>Tue, 12 Jul 2016 15:21:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes snap</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-snap</link>
+      <description>&lt;p&gt;Finally there also is a&amp;nbsp;&lt;b&gt;&lt;b&gt;snap&lt;/b&gt;&lt;/b&gt;&amp;nbsp;for&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;You can visit the &lt;a href="https://uappexplorer.com/app/qownnotes.pbek" target="_blank"&gt;QOwnNotes uApp Explorer page&lt;/a&gt;&amp;nbsp;to get more information.&lt;/p&gt;&lt;p&gt;Please visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#snap" target="_self"&gt;QOwnNotes installation page&lt;/a&gt;&amp;nbsp;for details on how to use it.&lt;/p&gt;&lt;p&gt;&lt;a href="http://snapcraft.io/" target="_blank"&gt;Snaps&lt;/a&gt;&amp;nbsp;are working on many Linux distributions like &lt;b&gt;Arch Linux&lt;/b&gt;, &lt;b&gt;Debian&lt;/b&gt;, &lt;b&gt;Fedora&lt;/b&gt;, &lt;b&gt;Gentoo Linux&lt;/b&gt; and &lt;b&gt;Ubuntu&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Also see what the&amp;nbsp;&lt;a href="https://youtu.be/St46dvUruSg?t=3m27s" target="_blank"&gt;Ubuntu Community Q&amp;amp;A&lt;/a&gt; has to say about QOwnNotes.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/snapcraft/4058-1-eng-GB/Snapcraft_reference.png" width="600" height="335"  style="border: 0px solid ;" alt="Snapcraft" title="Snapcraft" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(image by&amp;nbsp;&lt;a href="http://snapcraft.io/" target="_blank"&gt;snapcraft.io&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">6124638a51ae2ab4544ab173e62e0be4</guid>
+      <pubDate>Tue, 12 Jul 2016 10:34:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes review in British magazine Linux Format</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-review-in-British-magazine-Linux-Format</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;was &lt;b&gt;reviewed&lt;/b&gt; in the popular&amp;nbsp;British magazine&amp;nbsp;&lt;b&gt;&lt;a href="http://www.linuxformat.com/" target="_blank"&gt;&lt;b&gt;Linux Format&lt;/b&gt;&lt;/a&gt;&lt;/b&gt;, issue&amp;nbsp;213 for&amp;nbsp;August 2016!&lt;/p&gt;&lt;p&gt;With friendly permission from Neil from&amp;nbsp;&lt;i&gt;Linux Format&lt;/i&gt; you can &lt;b&gt;download&lt;/b&gt; the article here:&lt;/p&gt;
+&lt;div class=""&gt;
+&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-file"&gt;
+            &lt;div class="content-body attribute-pdf"&gt;
+        &lt;a href="https://www.qownnotes.org/content/download/683/4031/file/LXF213.hot.pdf"&gt;LXF213.hot.pdf&lt;/a&gt; 376.23 kB
+    &lt;/div&gt;
+           &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;You can also buy the full issue: &lt;a href="https://www.myfavouritemagazines.co.uk/computer/linux-format-magazine-back-issues/Linux-Format-August-2016-Issue-213/" target="_blank"&gt;Buy Linux Format issue 213&lt;/a&gt;&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/linuf-format-magazine/4026-1-eng-GB/Linuf-Format-magazine_reference.png" width="600" height="458"  style="border: 0px solid ;" alt="Linuf-Format-magazine" title="Linuf-Format-magazine" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">ef71174b0a4afebfd416579b8a55897c</guid>
+      <pubDate>Mon, 11 Jul 2016 11:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes Slackware Linux Repository</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-Slackware-Linux-Repository</link>
+      <description>&lt;p&gt;Finally there also is a&amp;nbsp;&lt;b&gt;Slackware repository&lt;/b&gt;&amp;nbsp;for&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Please visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#Slackware" target="_self"&gt;QOwnNotes installation page&lt;/a&gt;&amp;nbsp;for details on how to use it.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/slackware-logo/3996-2-eng-GB/Slackware-Logo_reference.png" width="600" height="181"  style="border: 0px solid ;" alt="Slackware Logo" title="Slackware Logo" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(Slackware logo by&amp;nbsp;&lt;a href="http://www.unixstickers.com" target="_blank"&gt;www.unixstickers.com&lt;/a&gt;)&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">f6f9fb678ea24f682d7c698fa0c05e69</guid>
+      <pubDate>Mon, 27 Jun 2016 14:33:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes review</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-review</link>
+      <description>&lt;p&gt;I want to share a very comprehensive review of QOwnNotes by &lt;a href="https://github.com/geckolinux" target="_blank"&gt;geckolinux&lt;/a&gt;.&lt;/p&gt;&lt;a name="eztoc3971_1" id="eztoc3971_1"&gt;&lt;/a&gt;&lt;h2&gt;Review of QOwnNotes&lt;/h2&gt;
+&lt;div class="object-right"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-review/3981-1-eng-GB/QOwnNotes-review_medium.png" width="200" height="141"  style="border: 0px solid ;" alt="QOwnNotes review" title="QOwnNotes review" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Hi, I just wanted to leave some general feedback on QOwnNotes and why I think it's one of the best in its class:&lt;/p&gt;&lt;p&gt;I've been extensively researching Markdown editors with live preview and export to a formatted file such as PDF. One of the finalists is QOwnNotes:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Can work completely offline with a folder on the local filesystem that contains .md files, no xCloud integration required.&lt;/li&gt;
+
+&lt;li&gt;Automatic saves - a surprising number of similar tools require opening a document, and then saving changes before closing. If I wanted a workflow like that I would just use LibreOffice. But QOwnCloud simply saves all changes instantly, which allows me to quickly jot something down and then close it without worrying whether it was saved or not.&lt;/li&gt;
+
+&lt;li&gt;Search - Surprisingly, even some of the very full-featured Markdown editors don't have search across multiple documents. QOwnNotes has instant search/filtering of document titles and their content too, and even allows regexp.&lt;/li&gt;
+
+&lt;li&gt;Tag support - This is also a rare find in Markdown editors, and QOwnNotes even allows a tag hierarchy!&lt;/li&gt;
+
+&lt;li&gt;List of documents - Again, if I wanted to have to open and navigate to a markdown file on my filesystem I would just use LibreOffice. But QOwnNotes has a master Notes directory, and right in the main interface it shows the available document names, and even allows switching between different folders for organization freaks like myself.&lt;/li&gt;
+
+&lt;li&gt;-&amp;nbsp;and&amp;nbsp;*&amp;nbsp;automatically appear with the key when working on outlines.&lt;/li&gt;
+
+&lt;li&gt;Document navigator automatically creates an index based on your headings to navigate through long documents&lt;/li&gt;
+
+&lt;li&gt;Allows exporting the formatted document to HTML or PDF for printing.&lt;/li&gt;
+
+&lt;li&gt;Allows for linking to other document titles in QOwnNotes with&amp;nbsp;note:///name-of-title&lt;/li&gt;
+
+&lt;li&gt;NOT Electron based! Lightweight, fast, and properly packaged for most distros.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This is an extremely full-featured and well thought-out program. It definitely feels like a far better alternative to the likes of Haroopad. Thanks for creating it!&lt;/p&gt;&lt;a name="eztoc3971_2" id="eztoc3971_2"&gt;&lt;/a&gt;&lt;h2&gt;Footnote&lt;/h2&gt;&lt;p&gt;You can see his original post at &lt;a href="https://github.com/pbek/QOwnNotes/issues/225" target="_self"&gt;GitHub&lt;/a&gt;&amp;nbsp;and an other posting on &lt;a href="https://www.reddit.com/r/LinuxActionShow/comments/4p6ibh/qownnotes_very_powerful_markdown_editor" target="_blank"&gt;Reddit&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">6011586f67e9442d099587156966db93</guid>
+      <pubDate>Wed, 22 Jun 2016 12:35:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes IRC</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-IRC</link>
+      <description>&lt;p&gt;QOwnNotes now has its own&amp;nbsp;&lt;b&gt;IRC channel&lt;/b&gt;&amp;nbsp;&lt;a href="irc://#qownnotes@freenode.net" target="_self"&gt;#qownnotes&lt;/a&gt;&amp;nbsp;at Freenode.&lt;/p&gt;&lt;p&gt;Click at&amp;nbsp;&lt;a href="irc://#qownnotes@freenode.net" target="_self"&gt;#qownnotes&lt;/a&gt;&amp;nbsp;to open your IRC client or click on&amp;nbsp;&lt;a href="http://webchat.freenode.net/?channels=qownnotes" target="_blank"&gt;QOwnNotes Webchat&lt;/a&gt;&amp;nbsp;for a web version.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                    &lt;a href="irc://#qownnotes@freenode.net" target="_self"&gt;        &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/irc-networking/3906-1-eng-GB/IRC-Networking_reference.jpg" width="600" height="400"  style="border: 0px solid ;" alt="IRC Networking" title="IRC Networking" /&gt;
+        &lt;/a&gt;    
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">b9b7033ae29bfbef72cf826cdf418406</guid>
+      <pubDate>Wed, 25 May 2016 16:14:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes now has scripting support</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-now-has-scripting-support</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt; now&amp;nbsp;has &lt;b&gt;scripting support&lt;/b&gt; with &lt;b&gt;QML&lt;/b&gt; and &lt;b&gt;JavaScript&lt;/b&gt;!&lt;/p&gt;&lt;p&gt;By using the power of the QQmlEngine and QML files with JavaScript you are now able to &lt;b&gt;script some new behavior&lt;/b&gt; into the application &lt;b&gt;yourself&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;You will find a new&amp;nbsp;&lt;b&gt;Scripting&amp;nbsp;tab&lt;/b&gt; in the settings dialog, where you can &lt;b&gt;add as many scripts&lt;/b&gt; to QOwnNotes &lt;b&gt;as you like&lt;/b&gt; (you can also disable them temporarily).&lt;/p&gt;&lt;p&gt;Currently you may need to restart QOwnNotes to let changes in a script take action.&lt;/p&gt;&lt;p&gt;I prepared some&amp;nbsp;&lt;b&gt;&lt;a href="https://github.com/pbek/QOwnNotes/tree/develop/doc/scripting" target="_blank"&gt;examples and documentation&lt;/a&gt;&lt;/b&gt;&amp;nbsp;to play around with.&lt;/p&gt;&lt;p&gt;If you need access to a certain functionality in QOwnNotes or have &lt;b&gt;questions or ideas&lt;/b&gt; please open an issue on the&amp;nbsp;&lt;a href="https://github.com/pbek/QOwnNotes/issues" target="_blank"&gt;QOwnNotes issue page&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-scripting-with-qml-and-javascript/3866-1-eng-GB/QOwnNotes-scripting-with-QML-and-JavaScript_reference.png" width="600" height="518"  style="border: 0px solid ;" alt="Scripting support with QML and JavaScript" title="Scripting support with QML and JavaScript" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">830bd8d62771e481b761505a5b2e2dbc</guid>
+      <pubDate>Fri, 13 May 2016 08:53:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes is the Desktop App Pick on the Linux Action Show</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-is-the-Desktop-App-Pick-on-the-Linux-Action-Show</link>
+      <description>&lt;p&gt;&lt;b&gt;OwnCloud&lt;/b&gt; suddenly got a big thing again for Chris and the crew and so&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;was&amp;nbsp;the&amp;nbsp;&lt;b&gt;Desktop App Pick&lt;/b&gt;&amp;nbsp;on the&amp;nbsp;&lt;b&gt;&lt;a href="http://www.jupiterbroadcasting.com/98121/floating-on-owncloud-9-las-410/" target="_blank"&gt;Linux Action Show 410&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Chris almost got all facts right, beside from that the QOwnNotes companion ownCloud app &lt;a href="https://apps.owncloud.com/content/show.php/QOwnNotesAPI?content=173817" target="_blank"&gt;&lt;b&gt;QOwnNotesAPI&lt;/b&gt;&lt;/a&gt; isn't needed for note syncing, but for accessing the &lt;b&gt;note versions&lt;/b&gt; and &lt;b&gt;trashed note&lt;/b&gt;&amp;nbsp;on your&amp;nbsp;&lt;b&gt;ownCloud&lt;/b&gt; server. ;)&lt;/p&gt;&lt;p&gt;You can watch the part on &lt;b&gt;YouTube&lt;/b&gt; at &lt;a href="https://youtu.be/PAVL--BgA7E?t=11m16s" target="_blank"&gt;QOwnNotes at&amp;nbsp;Linux Action Show 410&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qownnotes-on-las-410/3726-1-eng-GB/QOwnNotes-on-LAS-410_reference.png" width="600" height="337"  style="border: 0px solid ;" alt="QOwnNotes on LAS 410" title="QOwnNotes on LAS 410" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">659cd5c6a6bf697581277e907be5ade9</guid>
+      <pubDate>Mon, 28 Mar 2016 14:33:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes got featured in Linux Voice 25</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-got-featured-in-Linux-Voice-25</link>
+      <description>&lt;p&gt;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;got featured in issue 25 of the very popular &lt;b&gt;GNU/Linux&lt;/b&gt; and&amp;nbsp;&lt;b&gt;Free Software&lt;/b&gt;&amp;nbsp;magazine&amp;nbsp;&lt;a href="https://www.linuxvoice.com" target="_blank"&gt;&lt;b&gt;Linux Voice&lt;/b&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You can get &lt;b&gt;&lt;a href="http://shop.linuxvoice.com/products/single-issues" target="_blank"&gt;issue 25 of Linux Voice&lt;/a&gt;&lt;/b&gt; on their webpage.&lt;/p&gt;&lt;p&gt;Thanks a lot to &lt;i&gt;Graham&lt;/i&gt; from &lt;i&gt;Linux Voice&lt;/i&gt; to provide me with the article!&lt;/p&gt;&lt;p&gt;Now I know why lately more people are assuming that QOwnNotes is&amp;nbsp;using the notes from &lt;b&gt;OwnNote&lt;/b&gt;, which it doesn't. :)&lt;/p&gt;&lt;p&gt;
+&lt;b&gt;QOwnNotes&lt;/b&gt; uses the same &lt;b&gt;text files&lt;/b&gt; as the &lt;b&gt;ownCloud notes&lt;/b&gt; app.&lt;br /&gt;OwnNote uses HTML in the database.&lt;/p&gt;&lt;p&gt;Please read &lt;a href="https://www.qownnotes.org/Knowledge-base/Does-QOwnNotes-support-ownNote" target="_self"&gt;Does QOwnNotes support ownNote&lt;/a&gt;&amp;nbsp;for more information.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/screenshot-linuxvoice25/3711-1-eng-GB/screenshot-linuxvoice25_reference.png" width="600" height="412"  style="border: 0px solid ;" alt="screenshot-linuxvoice25" title="screenshot-linuxvoice25" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">7daacd0b9aae409d7a6d9410cb76ec6d</guid>
+      <pubDate>Fri, 25 Mar 2016 06:46:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes Gentoo Linux Overlay</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-Gentoo-Linux-Overlay</link>
+      <description>&lt;p&gt;Finally&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;has an overlay for&amp;nbsp;&lt;b&gt;Gentoo Linux&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Please visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#Gentoo" target="_self"&gt;QOwnNotes installation page&lt;/a&gt;&amp;nbsp;for details on how to use it.&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/gentoo-linux/3646-1-eng-GB/gentoo-linux_reference.jpg" width="400" height="400"  style="border: 0px solid ;" alt="gentoo-linux" title="gentoo-linux" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">5cb86f5df51a9383d4fe2f6c8d1e1539</guid>
+      <pubDate>Tue, 01 Mar 2016 07:05:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Translate QOwnNotes on Crowdin</title>
+      <link>http://www.qownnotes.org/Blog/Translate-QOwnNotes-on-Crowdin</link>
+      <description>&lt;p&gt;QOwnNotes is now translatable on &lt;b&gt;Crowdin&lt;/b&gt;! Join the fun at&amp;nbsp;&lt;a href="https://crowdin.com/project/qownnotes" target="_blank"&gt;QOwnNotes on&amp;nbsp;Crowdin&lt;/a&gt;&amp;nbsp;and make it available in your favorite language!&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/crowdin/3621-1-eng-GB/Crowdin_reference.png" width="600" height="421"  style="border: 0px solid ;" alt="Crowdin" title="Crowdin" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">206933d9ebb5b5b229c4b5ffc037d8c1</guid>
+      <pubDate>Fri, 26 Feb 2016 21:29:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes 1.0 out now in 6 languages and with Freedesktop theme icons support</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-1.0-out-now-in-6-languages-and-with-Freedesktop-theme-icons-support</link>
+      <description>&lt;p&gt;QOwnNotes has come a long way.&lt;/p&gt;&lt;p&gt;99 releases after the initial release&amp;nbsp;&lt;b&gt;QOwnNotes 1.0&lt;/b&gt;&amp;nbsp;is out now in&amp;nbsp;&lt;b&gt;6 languages&lt;/b&gt;&lt;b&gt;,&lt;/b&gt;&amp;nbsp;with&amp;nbsp;&lt;b&gt;Freedesktop&amp;nbsp;&lt;b&gt;theme&amp;nbsp;&lt;/b&gt;icons&lt;/b&gt;&amp;nbsp;support and with software repositories for &lt;b&gt;Ubuntu&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Arch&lt;/b&gt;,&amp;nbsp;&lt;b&gt;openSUSE&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Fedora&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;Debian&lt;/b&gt;&amp;nbsp;Linux, as well as packages for&amp;nbsp;&lt;b&gt;OS X&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;Windows&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Thank you for all the support in the last 16 months!&lt;/p&gt;&lt;p&gt;If you want to get involved with QOwnNotes read: &lt;b&gt;&lt;a href="https://www.qownnotes.org/Knowledge-base/How-can-I-get-involved-with-QOwnNotes" target="_self"&gt;Getting involved&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-translations/3513-3-eng-GB/QOwnNotes-translations_reference.png" width="600" height="463"  style="border: 0px solid ;" alt="QOwnNotes is available in many different languages" title="QOwnNotes is available in many different languages" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">f2d97bce981bf1e3b4f72911e6056eec</guid>
+      <pubDate>Sun, 14 Feb 2016 18:09:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes software repository for Debian Linux</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-software-repository-for-Debian-Linux</link>
+      <description>&lt;p&gt;Beside&amp;nbsp;&lt;b&gt;Linux&lt;/b&gt;&amp;nbsp;software repositories for&amp;nbsp;&lt;b&gt;Arch&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Ubuntu&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Fedora&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;openSUSE&lt;/b&gt;&amp;nbsp;we now also have a software repository for&amp;nbsp;&lt;b&gt;Debian Linux&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The repository also makes use of the wonderful openSUSE build service.&lt;/p&gt;&lt;p&gt;Please visit the&amp;nbsp;&lt;a href="https://www.qownnotes.org/installation#Debian" target="_self"&gt;QOwnNotes installation page&lt;/a&gt;&amp;nbsp;for details on how to use it.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+    
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">4f49a93c20d25f46b7f454b50bd1b848</guid>
+      <pubDate>Sun, 31 Jan 2016 08:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes package on the Arch User Repository</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-package-on-the-Arch-User-Repository</link>
+      <description>&lt;p&gt;Beside the regular &lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;software repository&amp;nbsp;for&amp;nbsp;&lt;b&gt;Arch Linux&lt;/b&gt; there now also is an official package on the &lt;b&gt;Arch User Repository &lt;/b&gt;called &lt;b&gt;qownnotes-pbek&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Please visit the &lt;a href="https://www.qownnotes.org/installation#Arch" target="_self"&gt;QOwnNotes installation page&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/arch-linux-logo/3410-1-eng-GB/arch-linux-logo_large.png" width="360" height="302"  style="border: 0px solid ;" alt="arch-linux-logo" title="arch-linux-logo" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">a18ec6923c7759c47debe36e51c81e01</guid>
+      <pubDate>Sat, 30 Jan 2016 11:29:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes software repository for Arch Linux</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-software-repository-for-Arch-Linux</link>
+      <description>&lt;p&gt;Finally &lt;b&gt;QOwnNotes&lt;/b&gt; has a software repository for &lt;b&gt;Arch Linux&lt;/b&gt; and derivatives like &lt;b&gt;Manjaro&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The repository uses the&amp;nbsp;openSUSE build service.&lt;/p&gt;&lt;p&gt;Please visit the &lt;a href="https://www.qownnotes.org/installation#Arch" target="_self"&gt;QOwnNotes installation page&lt;/a&gt; for details on how to use it.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/arch-linux-logo/3410-1-eng-GB/arch-linux-logo_large.png" width="360" height="302"  style="border: 0px solid ;" alt="arch-linux-logo" title="arch-linux-logo" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">c87bf73a89691e5ab62ff5ecc6e22f33</guid>
+      <pubDate>Wed, 27 Jan 2016 13:26:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Webpage redesign</title>
+      <link>http://www.qownnotes.org/Blog/Webpage-redesign</link>
+      <description>&lt;p&gt;To get new users faster to the core information what&amp;nbsp;&lt;b&gt;QOwnNotes&lt;/b&gt;&amp;nbsp;is all about and to let them download the app more quickly the front page and layout were a bit redesigned.&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/screenshot-qownnotes-webpage/3395-1-eng-GB/screenshot-qownnotes-webpage_large.jpg" width="360" height="301"  style="border: 0px solid ;" alt="screenshot-qownnotes-webpage" title="screenshot-qownnotes-webpage" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">26c0eebb275ef0564712d9c90a2d4f30</guid>
+      <pubDate>Tue, 26 Jan 2016 18:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qt widget QMarkdownTextEdit now a separate project for developer's pleasure</title>
+      <link>http://www.qownnotes.org/Blog/Qt-widget-QMarkdownTextEdit-now-a-separate-project-for-developer-s-pleasure</link>
+      <description>&lt;p&gt;For the pleasure of you developers I extracted the markdown widget functionality out of QOwnNotes and made it a separate&amp;nbsp;Qt widget.&lt;/p&gt;&lt;p&gt;It's name is &lt;b&gt;QMarkdownTextEdit&lt;/b&gt; and you'll find it on &lt;b&gt;&lt;a href="https://github.com/pbek/qmarkdowntextedit/" target="_blank"&gt;QMarkdownTextEdit on&amp;nbsp;GitHub&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class="object-center"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/qmarkdowntextedit-screenshot/3278-1-eng-GB/QMarkdownTextEdit-screenshot_large.png" width="360" height="298"  style="border: 0px solid ;" alt="QMarkdownTextEdit screenshot" title="QMarkdownTextEdit screenshot" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;a name="eztoc3298_1" id="eztoc3298_1"&gt;&lt;/a&gt;&lt;h2&gt;Current features&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;markdown highlighting&lt;/li&gt;
+
+&lt;li&gt;clickable links with Ctrl + Click&lt;/li&gt;
+
+&lt;li&gt;block indent with Tab and Shift + Tab&lt;/li&gt;
+
+&lt;li&gt;duplicate text with Ctrl + Alt + Down&lt;/li&gt;
+
+&lt;li&gt;searching of text with Ctrl + F
+&lt;ul&gt;
+
+&lt;li&gt;jump between search results with Up and Down&lt;/li&gt;
+
+&lt;li&gt;close search field with Escape&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">adfb636937ac91721565451d2ba11819</guid>
+      <pubDate>Wed, 13 Jan 2016 16:53:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>New release version RSS feed</title>
+      <link>http://www.qownnotes.org/Blog/New-release-version-RSS-feed</link>
+      <description>&lt;p&gt;If you don't want to miss a&amp;nbsp;single version of QOwnNotes you can subscribe to our &lt;b&gt;&lt;a href="https://www.qownnotes.org/rss/project_version/qownnotes.rss" target="_blank"&gt;QOwnNotes release version RSS feed&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;And if you don't want to miss every source code commit there is the &lt;a href="https://github.com/pbek/QOwnNotes/commits/develop.atom" target="_blank"&gt;QOwnNotes GitHub commit RSS feed&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Of course there also is the &lt;b&gt;&lt;a href="https://www.qownnotes.org/rss/feed/qownnotes-blog" target="_blank"&gt;QOwnNotes blog RSS feed&lt;/a&gt;&lt;/b&gt;, if you want the &lt;b&gt;latest news&lt;/b&gt; about the project.&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">666c1d2959cc01cb5e2ae3d979ec0298</guid>
+      <pubDate>Sat, 09 Jan 2016 12:37:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Linux software repositories and todo list support</title>
+      <link>http://www.qownnotes.org/Blog/New-Linux-software-repositories-and-todo-list-support</link>
+      <description>&lt;p&gt;A lot has happened the last weeks.&lt;/p&gt;&lt;p&gt;For more convenience there are now &lt;b&gt;software repositories&lt;/b&gt; for&amp;nbsp;&lt;b&gt;Ubuntu Linux&lt;/b&gt;,&amp;nbsp;&lt;b&gt;openSUSE Linux&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;b&gt;Fedora Linux&lt;/b&gt;, done with Ubuntu Launchpad and the openSUSE build service.&lt;/p&gt;&lt;p&gt;You will &lt;b&gt;not get any update notifications&lt;/b&gt; if you are using the software repositories, since your operating system is doing the updates, but you can always visit the &lt;a href="https://www.qownnotes.org/changelog/QOwnNotes" target="_self"&gt;changelog&lt;/a&gt; to see what happened.&lt;/p&gt;&lt;p&gt;Visit the new&amp;nbsp;&lt;b&gt;&lt;a href="https://www.qownnotes.org/installation" target="_self"&gt;installation page&lt;/a&gt;&lt;/b&gt;&amp;nbsp;for instructions on how to use them. There you will also find installation instructions for the other supported operating systems, like &lt;b&gt;OS X&lt;/b&gt; and &lt;b&gt;Windows&lt;/b&gt; and instructions on how you can &lt;b&gt;build QOwnNotes yourself&lt;/b&gt;.&lt;/p&gt;
+&lt;div class="object-left"&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-todo-list/3224-6-eng-GB/QOwnNotes-Todo-List_medium.png" width="200" height="154"  style="border: 0px solid ;" alt="Manage your ownCloud or Calendar Plus todo lists" title="Manage your ownCloud or Calendar Plus todo lists" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Furthermore QOwnNotes got support for &lt;b&gt;managing your ownCloud todo lists&lt;/b&gt;!&lt;/p&gt;&lt;p&gt;To manage your&amp;nbsp;todo lists&amp;nbsp;you need&amp;nbsp;&lt;a href="https://apps.owncloud.com/content/show.php/Tasks?content=164356" target="_blank"&gt;&lt;b&gt;ownCloud tasks&lt;/b&gt;&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;b&gt;&lt;a href="https://apps.owncloud.com/content/show.php/Tasks+Plus?content=170561" target="_blank"&gt;Tasks++&lt;/a&gt;&lt;/b&gt;&amp;nbsp;as backend, with which you also can manage your todo lists in the&amp;nbsp;&lt;b&gt;web&lt;/b&gt;&amp;nbsp;and on your &lt;b&gt;mobile devices&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Please be encouraged to report any troubles, wishes or ideas you have on the &lt;a href="https://github.com/pbek/QOwnNotes/issues" target="_blank"&gt;QOwnNotes issues page&lt;/a&gt;!&lt;/p&gt;&lt;p&gt;You may also want to &lt;b&gt;subscribe&lt;/b&gt; to the &lt;b&gt;&lt;a href="https://www.qownnotes.org/rss/feed/qownnotes-blog" target="_blank"&gt;QOwnNotes RSS Feed&lt;/a&gt;&lt;/b&gt; to get the latest information about the project.&lt;/p&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">e963f5ed803b0457dd1598e98dd1294d</guid>
+      <pubDate>Thu, 07 Jan 2016 08:15:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>QOwnNotes on Linux Unplugged</title>
+      <link>http://www.qownnotes.org/Blog/QOwnNotes-on-Linux-Unplugged</link>
+      <description>&lt;p&gt;&lt;a href="http://www.qownnotes.org/" target="_blank"&gt;&lt;b&gt;QOwnNotes&lt;/b&gt;&lt;/a&gt;&amp;nbsp;got featured on&amp;nbsp;&lt;a href="http://www.jupiterbroadcasting.com/90016/does-slack-mattermost-lup-117/" target="_blank"&gt;&lt;b&gt;Linux Unplugged&lt;/b&gt;&amp;nbsp;- Episode 117&lt;/a&gt;&amp;nbsp;(minute 19:56)&amp;nbsp;by&amp;nbsp;&lt;b&gt;&lt;a href="http://www.jupiterbroadcasting.com/" target="_blank"&gt;Jupiter Broadcasting&lt;/a&gt;&lt;/b&gt;, the largest GNU/Linux podcast network!&lt;/p&gt;&lt;p&gt;You can also watch the part directly where it starts&amp;nbsp;on &lt;b&gt;&lt;a href="https://youtu.be/189EVbWmxYc?t=19m56s" target="_blank"&gt;YouTube&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;a href="https://youtu.be/189EVbWmxYc?t=19m56s" target="_blank"&gt;&lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/media/images/linux-unplugged/2950-1-eng-GB/Linux-Unplugged_articleimage.jpg" alt=""
+     /&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">e1f6f905e1b05b86d8737fef96b9e744</guid>
+      <pubDate>Wed, 04 Nov 2015 17:34:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build and release systems for QOwnNotes for Linux, Mac OS X and Windows!</title>
+      <link>http://www.qownnotes.org/Blog/Build-and-release-systems-for-QOwnNotes-for-Linux-Mac-OS-X-and-Windows</link>
+      <description>&lt;p&gt;Finally all build and release systems for &lt;b&gt;&lt;a href="http://www.qownnotes.org" target="_blank"&gt;QOwnNotes&lt;/a&gt;&lt;/b&gt; for Linux, Mac OS X and Windows are running well and you always can download the latest release!&lt;/p&gt;&lt;p&gt;I'm using &lt;b&gt;Travis CI&lt;/b&gt; for &lt;b&gt;Ubuntu Linux&lt;/b&gt;, visit &lt;b&gt;&lt;a href="https://travis-ci.org/pbek/QOwnNotes" target="_blank"&gt;QOwnNotes on Travis CI&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;b&gt;GitLab CI&lt;/b&gt; is used for creating the &lt;b&gt;Mac OS X&lt;/b&gt; builds, visit &lt;b&gt;&lt;a href="https://ci.gitlab.com/projects/5070?ref=develop" target="_blank"&gt;QOwnNotes on GitLab CI&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;And &lt;b&gt;AppVeyor&lt;/b&gt; is used for creating the builds for &lt;b&gt;Microsoft Windows&lt;/b&gt;, visit &lt;b&gt;&lt;a href="https://ci.appveyor.com/project/pbek/qownnotes" target="_blank"&gt;QOwnNotes on AppVeyor&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;You will find all the &lt;b&gt;new binaries&lt;/b&gt;&amp;nbsp;in the &lt;b&gt;&lt;a href="http://www.qownnotes.org/#downloads" target="_blank"&gt;download area of the project page&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux_reference.png" width="600" height="463"  style="border: 0px solid ;" alt="Edit your notes with markdown highlighting, colored tags and subfolders" title="Edit your notes with markdown highlighting, colored tags and subfolders" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">3d1f8aa74add167d867b7de8fb42cd73</guid>
+      <pubDate>Mon, 27 Jul 2015 06:53:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Links to other notes or files are now possible in QOwnNotes</title>
+      <link>http://www.qownnotes.org/Blog/Links-to-other-notes-or-files-are-now-possible-in-QOwnNotes</link>
+      <description>&lt;p&gt;Build 25 of &lt;b&gt;QOwnNotes&lt;/b&gt; brings better url handling in the &lt;b&gt;markdown preview mode&lt;/b&gt;. &lt;b&gt;Links&lt;/b&gt; to &lt;b&gt;other notes&lt;/b&gt; or &lt;b&gt;files&lt;/b&gt; are now possible!&lt;/p&gt;&lt;p&gt;
+Examples:&lt;br /&gt;
+- &amp;lt;note://MyNote&amp;gt; opens the note &amp;quot;MyNote&amp;quot;&lt;br /&gt;
+- &amp;lt;note://my-note-with-spaces-in-the-name&amp;gt; opens the note &amp;quot;My Note with spaces in the name&amp;quot;&lt;br /&gt;
+- &amp;lt;http://www.bekerle.com/QOwnNotes&amp;gt; opens the webpage&lt;br /&gt;- &amp;lt;file:///path/to/my/file/QOwnNotes.pdf&amp;gt; opens the file &amp;quot;/path/to/my/file/QOwnNotes.pdf&amp;quot; if the operating system supports that handler&lt;/p&gt;&lt;p&gt;You will find the &lt;b&gt;new binaries&lt;/b&gt;&amp;nbsp;in the &lt;b&gt;&lt;a href="http://www.bekerle.com/QOwnNotes#downloads" target="_self"&gt;download area of the project page&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+&lt;div class=""&gt;&lt;div class="content-view-embed"&gt;
+    &lt;div class="class-image"&gt;
+        &lt;div class="attribute-image"&gt;
+            
+
+    
+        
+    
+                                                                                                                                            &lt;img src="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux_reference.png" width="600" height="463"  style="border: 0px solid ;" alt="Edit your notes with markdown highlighting, colored tags and subfolders" title="Edit your notes with markdown highlighting, colored tags and subfolders" /&gt;
+            
+    
+    
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>office+admin@bekerle.com (Patrizio Bekerle)</author>
+      <guid isPermaLink="false">3420a164bf00a909f927208c0ff26747</guid>
+      <pubDate>Mon, 23 Mar 2015 17:52:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

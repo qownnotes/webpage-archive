@@ -1,0 +1,1175 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+                        
+                
+                
+                                    
+                                
+
+
+
+
+<title>QOwnNotes - cross-platform open source plain-text file notepad</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Patrizio Bekerle"/>
+<meta name="description" content="QOwnNotes is a open source markdown note taking application for Linux, Mac OS X and Windows, that works together with Nextcloud Notes."/>
+<meta name="keywords" content="qownnotes, plain-text, markdown, nextcloud, owncloud, notepad, linux, windows, mac os x, qt, text files, dropbox, open source, gpl, FOSS"/>
+<meta name="generator" content="eZ Publish"/>
+<meta name="geo.region" content="AT" />
+<meta name="geo.placename" content="Graz" />
+<meta name="geo.position" content="47.070714;15.439504" />
+<meta name="ICBM" content="47.070714, 15.439504" />
+<meta name="Content-language" content="en-GB" />
+
+<link rel="image_src" href="var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" />
+<meta property="og:image" content="https://www.qownnotes.org/var/bekerle/storage/images/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" />
+<meta property="og:url" content="https://www.qownnotes.org/" />
+<meta property="og:title" content="QOwnNotes - cross-platform open source plain-text file notepad" />
+<meta property="og:description" content="QOwnNotes is a open source markdown note taking application for Linux, Mac OS X and Windows, that works together with Nextcloud Notes." />
+<meta property="og:type" content="website" />
+
+<link rel="Home" href="index.html" title="front page"/>
+<link rel="Index" href="index.html"/>
+<link rel="Shortcut icon" href="bundles/pbeprojectwebpage/images/favicon.png" type="image/png"/>
+<link rel="Alternate" type="application/rss+xml" title="Blog RSS" href="rss/feed/qownnotes-blog"/>
+
+        <link rel="canonical" href="index.html" />
+
+    
+
+    
+<link href='https://fonts.googleapis.com/css?family=Patua+One%7CMontserrat%7COpen+Sans:400,700,600' rel='stylesheet' type='text/css'/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/264d2a5.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="css/7216f40.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/f4d1e2a.css" media="print"/>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/5b245dd.css"/>
+
+<style type="text/css">
+    @import url("extension/ezwt/design/standard/stylesheets/websitetoolbar.css");
+</style>
+    
+<script type="text/javascript" src="js/9839dfc.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/73b1985.js"></script>
+<script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+<![endif]-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+
+<script type="text/javascript" src="js/d3cc23d.js"></script>
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"light-top"};
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
+    <script type="text/javascript">
+                if (location.protocol != 'https:') {
+            
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <link rel="Alternate" type="application/rss+xml" title="QOwnNotes release version RSS" href="rss/project_version/qownnotes.rss"/>
+</head>
+
+<body class="bg_f0f2f2 color_53b7f9 light_skin">
+            <script type="text/javascript">
+            var gaProperty = 'UA-52660882-2';
+            var disableStr = 'ga-disable-' + gaProperty;
+            if (document.cookie.indexOf(disableStr + '=true') > -1) {
+                window[disableStr] = true;
+            }
+            function gaOptout() {
+                document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                window[disableStr] = true;
+                alert('Tracking by Google Analytics was disabled for this webpage by your browser.');
+            }
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-52660882-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//p.bekerle.com/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 1]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="https://p.bekerle.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    
+    <div class="row-wrap wrapper light_skin">
+        <div class="row-space">
+            <header id="header" class="row noprint">
+                <div id="top-menu">
+                    <div class="top-menu">
+    <ul>
+                    <li class="active ">
+
+                                    <a href="index.html">Home</a>
+                
+                            </li>
+                    <li class=" ">
+
+                                    <a href="installation.html">Installation</a>
+                
+                            </li>
+                    <li class=" ">
+
+                                    <a href="blog.html">Blog</a>
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/Time-Flies-Podcast-episode-with-interview-about-QOwnNotes.html">Time Flies Podcast episode with interview about QOwnNotes</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/Bookmark-management-with-QOwnNotes-and-Web-Companion-browser-extension.html">Bookmark management with QOwnNotes and Web Companion browser extension</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/Firefox-extension-on-Firefox-Add-ons-page.html">Firefox extension on Firefox Add-ons page</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/Chrome-extension-in-Chrome-Web-Store.html">Chrome extension in Chrome Web Store</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/QOwnNotes-Web-Companion-Chrome-extension.html">QOwnNotes Web Companion Chrome extension</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Blog/500th-release-of-QOwnNotes.html">500th release of QOwnNotes</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="changelog/QOwnNotes.html">Changelog</a>
+                
+                            </li>
+                    <li class=" no-link">
+
+                                    Docs
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="http://docs.qownnotes.org">Documentation</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Knowledge-base.html">Knowledge base</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="shortcuts/QOwnNotes.html">Shortcuts</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="https://github.com/pbek/QOwnNotes/issues">Issues</a>
+                
+                            </li>
+                    <li class=" ">
+
+                                    <a href="Knowledge-base/How-can-I-get-involved-with-QOwnNotes.html">Get involved</a>
+                
+                            </li>
+                    <li class=" no-link">
+
+                                    Contact
+                
+                                    <ul>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://t.me/QOwnNotes">Telegram</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://riot.im/app/#/room/!rUzrRvrnrOsLasDdbp:matrix.org?via=matrix.org">Matrix/Riot.im</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://gitter.im/qownnotes/qownnotes">Gitter IM (Chat)</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://kiwiirc.com/client/irc.freenode.net/#qownnotes">IRC (Chat)</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a target="_blank" href="https://quodlibet.duckdns.org/irc/qownnotes/latest.log.html">IRC Log</a>
+                                                            </li>
+                                                    <li
+                                >
+
+                                                                                                        <a  href="Contact.html">Contact form</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+                    <li class=" ">
+
+                                    <a href="donate.html">Donate</a>
+                
+                            </li>
+            </ul>
+</div>
+
+                </div>
+                <div class="break"></div>
+                <div class="head-logo">
+                    <a href="index.html"><img src="bundles/pbeprojectwebpage/images/header-icon.png" alt="QOwnNotes - plain-text file markdown note taking with Nextcloud/ownCloud integration" /></a>
+                    <h1 class="head-name"><a href="index.html">QOwnNotes</a></h1>
+                    <h2 class="head-subname">Plain-text file markdown note taking with Nextcloud integration</h2>
+                </div>
+                <div class="head-social">
+                    <ul>
+                        <li class="github">
+                            <a class="github-button" href="https://github.com/pbek/QOwnNotes" data-icon="octicon-star" data-count-href="/pbek/QOwnNotes/stargazers" data-count-api="/repos/pbek/QOwnNotes#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star pbek/QOwnNotes on GitHub">Star</a>
+                        </li>
+                        <li class="github">
+                            <a class="github-button" href="https://github.com/pbek/QOwnNotes/issues" data-icon="octicon-issue-opened" data-count-api="/repos/pbek/QOwnNotes#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue pbek/QOwnNotes on GitHub">Issue</a>
+                        </li>
+                        <li class="fb"><a href="https://www.facebook.com/QOwnNotes" target="_blank">Facebook</a></li>
+                        <li class="tw"><a href="https://twitter.com/QOwnNotes" target="_blank">Twitter</a></li>
+                        <li class="gplus"><a href="https://plus.google.com/b/102968066306102706816/102968066306102706816" target="_blank">Google+</a></li>
+                                            </ul>
+                </div>
+            </header>
+
+            
+            <div id="pagelayout-breadcrumb">
+                                                            
+                                                </div>
+
+            <div id="pagelayout-content">
+                            <section id="frontpage-slideshow">
+            <h2 class="slogan">
+                Your notes on your hard disk and in your own cloud.
+            </h2>
+            <ul class="pgwSlideshow">
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" alt="Edit your notes with markdown highlighting, colored tags and subfolders" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-main-screen-minimal-linux/4706-1-eng-GB/QOwnNotes-Main-Screen-Minimal-Linux.png" alt="Minimal default user interface that can be stripped even more" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-main-screen-vertical-view-linux/1054-14-eng-GB/QOwnNotes-Main-Screen-Vertical-View-Linux.png" alt="View your notes in a vertical markdown view by moving the panels" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-web-companion-bookmarks/5945-1-eng-GB/QOwnNotes-Web-Companion-Bookmarks.png" alt="You can manage your bookmarks inside your browser in local Markdown files with QOwnNotes and sync them across devices with Nextcloude or other services" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/nextcloud-connect/3375-4-eng-GB/Nextcloud-connect.png" alt="Connect to your ownCloud or Nextcloud server for additional features like versioning and trash" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/dark-mode-and-dark-mode-theme-support/3756-5-eng-GB/Dark-mode-and-dark-mode-theme-support.png" alt="Dark mode and dark mode theme support" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-scripting-with-qml-and-javascript/3866-1-eng-GB/QOwnNotes-scripting-with-QML-and-JavaScript.png" alt="Scripting support with QML and JavaScript" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/note-folders-settings/3766-2-eng-GB/Note-folders-settings.png" alt="Configure as many note folders as you want" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/note-trash/3365-2-eng-GB/Note-trash.png" alt="Access your ownCloud trash to restore removed notes" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/note-versioning/3370-3-eng-GB/Note-versioning.png" alt="Restore old versions of your notes with the ownCloud versioning feature" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-translations/3513-3-eng-GB/QOwnNotes-translations.png" alt="QOwnNotes is available in many different languages" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-freedesktop-icon-themes/3518-1-eng-GB/QOwnNotes-Freedesktop-icon-themes.png" alt="QOwnNotes supports Freedesktop icon themes" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/dockable-panels/4114-1-eng-GB/Dockable-panels.png" alt="All panels can be placed wherever you want" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-workspaces/4284-3-eng-GB/QOwnNotes-workspaces.png" alt="You can have as many workspace layouts as you like" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/distraction-free-mode/3761-1-eng-GB/Distraction-free-mode.png" alt="Distraction free mode" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/qownnotes-external-modification-notification-linux/846-7-eng-GB/QOwnNotes-External-Modification-Notification-Linux.png" alt="Get notified about external modifications of your current note" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/print-or-export-note/3355-1-eng-GB/Print-or-export-note.png" alt="Print or export your notes as PDF" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/portable-mode/4179-1-eng-GB/Portable-mode.png" alt="Portable mode for USB sticks" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/link-notes/3360-2-eng-GB/Link-notes.png" alt="Create links to webpages, local files or other notes" /></figure>
+                    </li>
+                                    <li>
+                        <figure class="ezimage-field"><img src="var/bekerle/storage/images/_aliases/frontpage_slider_full2/qownnotes/frontpage-slider/search-in-all-notes/3345-3-eng-GB/Search-in-all-notes.png" alt="Find text in all your notes" /></figure>
+                    </li>
+                            </ul>
+            <script>
+                $(function () {
+                    $(document).ready(function() {
+                        initQOwnNotesFrontpage();
+                    });
+                });
+            </script>
+            <div id="download-button-box">
+                <a id="download-button" href="installation.html" class="btn btn-primary tooltip-bottom" title="QOwnNotes is free open source software">Download</a>
+                <div class="version">
+                    Version 20.10.2
+                </div>
+            </div>
+        </section>
+    
+    <section id="post" class="item project">
+        <h2 class="item-title"><a href="index.html#"><span class="title"><span class="ezstring-field">QOwnNotes</span></span> <span class="icon-project"><i class="fa fa-cubes fa-2x"></i></span></a></h2>
+
+        <div class="item-cont clearfix">
+            <div class="col535 fl-left">
+                <div class="post-cont wp-cont">
+                    
+                                            <div class="attribute-long">
+                            <div class="ezxmltext-field"><div class="object-right"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" title="QOwnNotes Main Screen (Linux)">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" alt="Edit your notes with markdown highlighting, colored tags and subfolders" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><div class="object-right"><a href="http://qownnotes.findmysoft.com/" target="_blank"><img src="var/bekerle/storage/images/media/images/review2_5_qownnotes_award/1724-1-eng-GB/review2_5_QOwnNotes_award.png" alt=""
+     class="embed-inline-right" /></a>
+</div><p><a href="index.html" target="_self">QOwnNotes</a> is the <strong>open source</strong> (GPL) plain-text file <strong>markdown note taking</strong> application for <strong>GNU/Linux</strong>, <strong>Mac OS X</strong> and <strong>Windows</strong> by <a href="https://keybase.io/pbek" target="_blank">Patrizio Bekerle</a> (<em>pbek</em> on GitHub and IRC), that (optionally) works together with the <a href="https://github.com/nextcloud/notes" target="_blank"><strong>notes application</strong></a> of <a href="https://owncloud.org/" target="_blank">ownCloud</a> or <a href="https://nextcloud.com/" target="_blank">Nextcloud</a>.</p><ul>
+<li>You <strong>own</strong> your own notes! All notes are stored as <strong>plain-text files</strong> on your desktop computer.</li>
+<li>
+<strong>Sync</strong> them over devices (desktop &amp; mobile) with your ownCloud or Nextcloud sync client.</li>
+<li>Use <strong>ownCloud</strong> Notes to edit your notes in the <strong>web</strong>.</li>
+</ul><p>You are able to <strong>write down your thoughts</strong> with QOwnNotes and <strong>edit</strong> or <strong>search</strong> for them <strong>later</strong> from your <strong>mobile device</strong> (like with <a href="http://peterandlinda.com/cloudnotes/" target="_blank">CloudNotes</a>) or the <strong>ownCloud / Nextcloud web-services</strong>.</p><div class="object-left"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/owncloud-notes-web-interface/841-4-eng-GB/ownCloud-Notes-Web-Interface.png" title="ownCloud Notes Web-Interface">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/owncloud-notes-web-interface/841-4-eng-GB/ownCloud-Notes-Web-Interface.png" alt="Edit your notes in the web with ownCloud Notes" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><p>The notes are stored as <strong>plain text files</strong> and you can <strong>sync them with your ownCloud or Nextcloud sync client</strong>. Of course other software, like <strong>Dropbox</strong>, <strong>Syncthing</strong>, <strong>Seafile</strong> or BitTorrent Sync can be used too.</p><p>I like the concept of having notes accessible in plain text files, like it is done in the <strong>Nextcloud notes app</strong>, to gain a <strong>maximum of freedom</strong>, but I was not able to find a decent desktop note taking tool or a text editor, that handles them well in conjunction with <strong>ownCloud</strong> or <strong>Nextcloud</strong>.</p><p>Out of this need <strong>QOwnNotes</strong> was born.</p><div class="object-right"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/screenshot-cloudnotes-ios/899-4-eng-GB/Screenshot-CloudNotes-iOS.png" title="Screenshot CloudNotes iOS">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/screenshot-cloudnotes-ios/899-4-eng-GB/Screenshot-CloudNotes-iOS.png" alt="Edit your notes on your mobile device with CloudNotes" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><p>Please be so kind to <a href="Contact.html" target="_self">contact</a> me and tell me how you like <strong>QOwnNotes</strong> or write me your <strong>suggestions</strong> as <a href="https://github.com/pbek/QOwnNotes/issues" target="_blank">GitHub issue</a>.</p><p>You can also <strong>contribute code</strong> by sending me <strong>pull requests</strong> on <a href="https://github.com/pbek/QOwnNotes" target="_blank">GitHub</a>.</p><p>Visit the <strong><a href="installation.html" target="_self">QOwnNotes installation</a></strong> page for all available <strong>Linux</strong>, <strong>macOS</strong> and <strong>Windows releases</strong>!</p><p>There are many Linux software repositories, amongst them repositories for <strong>Ubuntu Linux</strong>, <strong>Arch Linux</strong>, <strong>Debian Linux</strong>, <strong>Gentoo Linux</strong>, <strong>openSUSE Linux</strong> and <strong>Fedora Linux.</strong></p><div class="object-left"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/qownnotes-todo-list/3224-6-eng-GB/QOwnNotes-Todo-List.png" title="QOwnNotes Todo List">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/qownnotes-todo-list/3224-6-eng-GB/QOwnNotes-Todo-List.png" alt="Manage your ownCloud or Calendar Plus todo lists" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><p>To manage your <strong>todo lists</strong> you need <a href="https://apps.owncloud.com/content/show.php/Tasks?content=164356" target="_blank"><strong>ownCloud tasks</strong></a> or <strong><a href="https://apps.owncloud.com/content/show.php/Tasks+Plus?content=170561" target="_blank">Tasks++</a></strong> as backend, with which you also can manage your todo lists in the <strong>web</strong> and on your mobile devices.</p><p>It is also possible to use an other <strong>CalDAV server</strong> to sync your tasks to.</p><p>To get more features with Nextcloud / ownCloud for your <strong>notes</strong>, like <strong>versioning</strong> and access to your <strong>trashed notes</strong>, you might also want to install <strong><a href="https://github.com/pbek/qownnotesapi" target="_blank">QOwnNotesAPI</a></strong> on your Nextcloud / ownCloud server.</p><p>To access your Nextcloud / ownCloud notes from your <strong>mobile device</strong> you may want to get one of these apps:</p><ul>
+<li>
+<a href="https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes" target="_blank">Nextcloud Notes for Android</a> (3rd party)</li>
+<li>
+<a href="https://itunes.apple.com/de/app/cloudnotes-owncloud-notes/id813973264?mt=8" target="_blank">CloudNotes for iOS</a> (3rd party)</li>
+</ul><p>On Android you could also use any sync-tool like <em>Synchronize Ultimate</em> or <em>FolderSync</em> to sync your note files and use software like <em>neutriNotes</em> to edit your notes.</p><p>On iOS I heard <a href="https://itunes.apple.com/us/app/notebooks-write-and-organize/id780438662" target="_blank">Notebooks</a> works well (syncing notes via WebDAV).</p><a id="eztoc_1_1"></a><h2>Screenshot</h2><div><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" title="QOwnNotes Main Screen (Linux)">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/reference/qownnotes/frontpage-slider/qownnotes-main-screen-linux/374-25-eng-GB/QOwnNotes-Main-Screen-Linux.png" alt="Edit your notes with markdown highlighting, colored tags and subfolders" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><a id="eztoc_2_1"></a><h2>Features</h2><div class="object-right"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/qownnotes-external-modification-notification-linux/846-7-eng-GB/QOwnNotes-External-Modification-Notification-Linux.png" title="QOwnNotes External Modification Notification (Linux)">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/qownnotes-external-modification-notification-linux/846-7-eng-GB/QOwnNotes-External-Modification-Notification-Linux.png" alt="Get notified about external modifications of your current note" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div><ul>
+<li>the <strong>notes folder</strong> can be <strong>freely chosen</strong> (multiple note folders can be used)</li>
+<li>you can use your <strong>existing text or markdown files</strong>, no need for an import most of the times</li>
+<li>
+<strong>sub-string searching</strong> of notes is possible and search results are highlighted in the notes</li>
+<li>application can be operated with <strong>customizable</strong> <strong>keyboard shortcuts</strong>
+</li>
+<li>
+<strong>scripting support</strong> and an online <a href="https://github.com/qownnotes/scripts" target="_blank"><strong>script repository</strong></a> where you can install scripts inside the application</li>
+<li>
+<a href="https://github.com/qownnotes/web-companion" target="_blank">QOwnNotes Web Companion browser extension</a> to a add notes from the selected text and other features<ul><li>visit the <a href="https://chrome.google.com/webstore/detail/qownnotes-web-companion/pkgkfnampapjbopomdpnkckbjdnpkbkp" target="_blank">QOwnNotes Chrome Web Store</a> or the <a href="https://addons.mozilla.org/en-US/firefox/addon/qownnotes-web-companion/" target="_blank">QOwnNotes Firefox Addon</a> page</li></ul>
+</li>
+<li>
+<strong>external changes</strong> of note files are <strong>watched</strong> (notes or note list are reloaded)</li>
+<li>older <strong>versions</strong> of your notes can be <strong>restored</strong> from your <strong>ownCloud / Nextcloud</strong> server</li>
+<li>
+<strong>trashed notes</strong> can be <strong>restored</strong> from your <strong>ownCloud<strong> / Nextcloud</strong></strong> server</li>
+<li>
+<strong>differences</strong> between current note and externally changed note are <strong>showed</strong> in a dialog</li>
+<li>
+<div class="object-right"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+                            <div class="attribute-image full-head">
+                                                                            <a class="fancybox-thumb"  href="var/bekerle/storage/images/_aliases/lightbox_fullscreen/qownnotes/frontpage-slider/qownnotes-main-screen-vertical-view-linux/1054-14-eng-GB/QOwnNotes-Main-Screen-Vertical-View-Linux.png" title="QOwnNotes Main Screen, Vertical View (Linux)">
+                    
+                                    <img src="var/bekerle/storage/images/_aliases/medium/qownnotes/frontpage-slider/qownnotes-main-screen-vertical-view-linux/1054-14-eng-GB/QOwnNotes-Main-Screen-Vertical-View-Linux.png" alt="View your notes in a vertical markdown view by moving the panels" />
+        
+                    </a>
+            
+
+                                    </div>
+                    </div>
+    </div>
+</div>
+</div>
+<strong>markdown highlighting</strong> of notes and a <strong>markdown preview mode</strong>
+</li>
+<li>
+<a href="https://docs.qownnotes.org/en/develop/spellchecking.html" target="_blank"><strong>spellchecking</strong></a> support</li>
+<li>notes are getting their name from the first line of the note text (just like in the ownCloud notes web-application) and the note text files are automatically renamed, if the the first line changes</li>
+<li>
+<strong>compatible</strong> with the notes web-application of <strong>ownCloud</strong> and <strong>mobile</strong> ownCloud notes applications</li>
+<li>compatible with ownCloud's <strong>selective sync</strong> feature by supporting an <strong>unlimited amount</strong> of <strong>note folders</strong> with the ability to choose the respective folder on your server</li>
+<li>manage your ownCloud <strong>todo lists</strong> (<strong>ownCloud tasks</strong> or <strong>Tasks Plus</strong> / <strong>Calendar Plus</strong>) or use an other <strong>CalDAV server</strong> to sync your tasks to</li>
+<li>
+<strong>encryption</strong> of notes (AES-256 is built in or you can use custom encryption methods like <strong><a href="https://keybase.io/" target="_blank">Keybase.io</a></strong> (<a href="https://github.com/pbek/QOwnNotes/blob/develop/doc/scripting/encryption-keybase.qml" target="_blank">encryption-keybase.qml</a>) or <strong>PGP</strong> (<a href="https://github.com/pbek/QOwnNotes/blob/develop/doc/scripting/encryption-pgp.qml" target="_blank">encryption-pgp.qml</a>))</li>
+<li><strong>dark mode theme support</strong></li>
+<li>
+<strong>theming support</strong> for the <strong>markdown syntax highlighting</strong>
+</li>
+<li>all<strong> panels can be placed wherever you want, </strong>they can even<strong> float </strong>or<strong> stack</strong> (fully dockable)</li>
+<li>support for <strong>freedesktop theme icons</strong>, you can use QOwnNotes with your <strong>native desktop icons</strong> and with your favorite <strong>dark desktop theme</strong>
+</li>
+<li>support for <strong>hierarchical note tagging </strong>and<strong> note subfolders</strong>
+</li>
+<li>support for <strong>sharing notes</strong> on your ownCloud<strong> </strong>/ Nextcloud server</li>
+<li>
+<strong>portable mode</strong> for carrying QOwnNotes around on USB sticks</li>
+<li><strong>Vim mode</strong></li>
+<li>
+<strong>distraction free mode</strong>,<strong> full-screen mode</strong>,<strong> typewriter mode</strong>
+</li>
+<li><strong>Evernote import</strong></li>
+<li>QOwnNotes is <strong>available in many different languages</strong> like English, German, French, Polish, Chinese, Japanese, Russian, Portuguese, Hungarian, Dutch and Spanish</li>
+<li>
+<a href="Knowledge-base/How-can-I-help-to-translate-QOwnNotes.html" target="_self">Your help</a> is very much appreciated to improve these translations or to translate QOwnNotes in more languages</li>
+<li>Join the fun at <strong><a href="https://crowdin.com/project/qownnotes/invite" target="_blank">Crowdin</a></strong> to <strong>help</strong> with the <strong>translations</strong>
+</li>
+</ul><a id="eztoc_3_1"></a><h2>Disclaimer</h2><p>This SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults." THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this SOFTWARE PRODUCT.</p><p>There are inherent dangers in the use of any software, and you are solely responsible for determining whether this SOFTWARE PRODUCT is compatible with your equipment and other software installed on your equipment. You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing this SOFTWARE PRODUCT.</p><p>If you are looking for old comments, you will find them here: <a href="http://www.bekerle.com/QOwnNotes" target="_blank">QOwnNotes project page on www.bekerle.com</a></p><div class="object-left"><a href="http://www.jetbrains.com" target="_blank"><img src="var/bekerle/storage/images/media/images/jetbrains/4546-1-eng-GB/jetbrains_small.png" alt=""
+     class="embed-inline-left" /></a>
+</div><p>A big thank you to <a href="http://www.jetbrains.com" target="_blank">JetBrains</a> for a free license to their development products!</p>
+</div>
+
+                        </div>
+                                    </div>
+
+                <div class="post-bottom clearfix">
+                    
+                    <div class="attribute-socialize">
+                                            </div>
+
+                    <div class="attribute-comments">
+                            <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'qownnotes';
+        var disqus_identifier = '72';
+        var disqus_title = 'QOwnNotes';                
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            <div class="col230 fl-right">
+                <aside id="sidebar">
+                    <div class="widget" id="feedburner-box">
+            <p>
+        <a target="_blank" href="https://feeds.feedburner.com/QOwnNotesBlog" rel="alternate" type="application/rss+xml"><img src="https://feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="https://feeds.feedburner.com/QOwnNotesBlog" rel="alternate" type="application/rss+xml">Subscribe to QOwnNotes blog</a>
+    </p>
+    <p>
+        <a target="_blank" href="https://feeds.feedburner.com/QOwnNotesReleases" rel="alternate" type="application/rss+xml"><img src="https://feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="https://feeds.feedburner.com/QOwnNotesReleases" rel="alternate" type="application/rss+xml">Subscribe to QOwnNotes releases</a>
+    </p>
+</div>
+<div class="widget" id="paypal-donate">
+    <p>
+        If you like to donate to the project you can do so here.
+    </p>
+    <p>
+    You can <strong>donate money via PayPal</strong> by clicking this button:
+</p>
+<form id="paypal-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYClSESytpc+57RneGANkvgpynJQwhjtx5qb+9azhNZlbJLEZFfGszXuOHILXApfDm9yHzZUpen5h+fmyeSZ1CtgRHdxsYYapRnl/BEkN16uFwe2Tzo14BNPJKGN+EnaqbpyDHzVmAwc7Ir4zHTuIKBYwFZjln14TFBXf13qMoDgszELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIf0Vv0xqzZdCAgYgLe1RfLReNloTT+MtMRifuvi1LC3i+0I9aojJ/Ah5GF6vzh1iJguE6YiLdsoXMzWODIR64G4JPdXSsybo+7fl3ZSiprY2c1vuiD57aK4BXm9VQ0/BqgznpFYb6wHf5Wddn16JLJXHRky0pMuQTAwOiG4SfWIS0N0mTIR10z21cAo1GuG7UopKWoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTYwODIzMTQ1OTA1WjAjBgkqhkiG9w0BCQQxFgQUjEi3rEC+DxXke6rxTJpEojyNqoEwDQYJKoZIhvcNAQEBBQAEgYCBn6Tqe+Z1VOB1Z7d4oZvb6ZNQ3OgZGUem/jIVGxqdquIAvW777fNMnM2m+GO8QFQhrXYlqPhwhUu4ZlAIVaWYMGhwFOzoQzX66nQaRHI4VZG8L54x/iTKR/BQ6c7no+TvAnNlvgJ3frE/ZCi2Xb6YkmEN4SGgONdpfKg2LT+vJw==-----END PKCS7-----
+">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+</form>
+    <p>
+    You can <strong>donate money via Liberapay</strong> by clicking this button:
+</p>
+<p>
+    <script src="https://liberapay.com/pbek/widgets/button.js"></script>
+    <noscript><a href="https://liberapay.com/pbek/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+</p>
+    <p>
+        If you want to donate <strong>Bitcoin</strong> or <strong>ETH</strong> please visit the <a href="donate.html">Donation</a> page.
+    </p>
+</div>
+
+                                            <div class="widget" id="news-items">
+                            <h2>News</h2>
+                            <ul>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Time-Flies-Podcast-episode-with-interview-about-QOwnNotes.html" title="Time Flies Podcast episode with interview about QOwnNotes"><span class="ezstring-field">Time Flies Podcast episode with interview about QOwnNotes</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">12/08/2019, 18:45</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>A few weeks ago <em>Santi Younger</em> interviewed me in his Podcast <em>Time Flies </em>about QOwnNotes.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Bookmark-management-with-QOwnNotes-and-Web-Companion-browser-extension.html" title="Bookmark management with QOwnNotes and Web Companion browser extension"><span class="ezstring-field">Bookmark management with QOwnNotes and Web Companion browser extension</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">16/01/2019, 19:20</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>If you want to take a look at the first release of the<strong> bookmark management</strong> capabilities of QOwnNotes and the <a href="https://github.com/qownnotes/web-companion/" target="_blank"><strong>Web Companion browser extension</strong></a> install the latest release of the extension from the <a href="https://chrome.google.com/webstore/detail/qownnotes-web-companion/pkgkfnampapjbopomdpnkckbjdnpkbkp" target="_blank">Chrome Web Store</a> or the <a href="https://addons.mozilla.org/firefox/addon/qownnotes-web-companion" target="_blank">Firefox Add-ons page</a>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Firefox-extension-on-Firefox-Add-ons-page.html" title="Firefox extension on Firefox Add-ons page"><span class="ezstring-field">Firefox extension on Firefox Add-ons page</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">09/01/2019, 06:24</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>The <a href="https://github.com/qownnotes/web-companion" target="_blank">QOwnNotes Web Companion browser extension</a> is now available on the <a href="https://addons.mozilla.org/firefox/addon/qownnotes-web-companion/" target="_blank">Firefox Add-ons page</a>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Chrome-extension-in-Chrome-Web-Store.html" title="Chrome extension in Chrome Web Store"><span class="ezstring-field">Chrome extension in Chrome Web Store</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">31/12/2018, 11:57</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>The <a href="https://github.com/qownnotes/chrome-web-companion" target="_blank">QOwnNotes Web Companion Chrome extension</a> is now available in the <a href="https://chrome.google.com/webstore/detail/qownnotes-web-companion/pkgkfnampapjbopomdpnkckbjdnpkbkp" target="_blank">Chrome Web Store</a>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-Web-Companion-Chrome-extension.html" title="QOwnNotes Web Companion Chrome extension"><span class="ezstring-field">QOwnNotes Web Companion Chrome extension</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">27/12/2018, 12:38</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>In version 18.12.7 I added support for the new <a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank">QOwnNotes Web Companion </a><a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank">Chrome</a> <a href="https://github.com/qownnotes/chrome-web-companion/" target="_blank">extension</a> to add selected text as new note!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/500th-release-of-QOwnNotes.html" title="500th release of QOwnNotes"><span class="ezstring-field">500th release of QOwnNotes</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">23/12/2018, 16:14</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Right for Christmas comes <em>version 18.12.5</em>, the <strong>500th release of QOwnNotes</strong>!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-Telegram-Group.html" title="QOwnNotes Telegram Group"><span class="ezstring-field">QOwnNotes Telegram Group</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">05/10/2018, 14:46</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Join the new QOwnNotes Telegram Group at <a href="tg://resolve?domain=QOwnNotes" target="_blank">https://t.me/QOwnNotes</a>!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Vim-mode.html" title="Vim mode"><span class="ezstring-field">Vim mode</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">07/08/2018, 18:50</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now is a <strong>Vim mode</strong> in QOwnNotes.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-for-openSUSE-Leap-15-SUSE-Linux-Enterprise-15-and-SUSE-Linux-Enterprise-12-SP3.html" title="QOwnNotes for openSUSE Leap 15, SUSE Linux Enterprise 15 and SUSE Linux Enterprise 12 SP3"><span class="ezstring-field">QOwnNotes for openSUSE Leap 15, SUSE Linux Enterprise 15 and SUSE Linux Enterprise 12 SP3</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">29/03/2018, 17:52</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now are releases of <strong>QOwnNotes</strong> for <strong>openSUSE Leap 15</strong>,<strong> SUSE Linux Enterprise 15 </strong>and<strong> SUSE Linux Enterprise 12 SP3</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-featured-on-LINUX-Unplugged-podcast-and-by-Ubuntu.html" title="QOwnNotes featured on LINUX Unplugged podcast and by Ubuntu"><span class="ezstring-field">QOwnNotes featured on LINUX Unplugged podcast and by Ubuntu</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">11/01/2018, 16:52</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>QOwnNotes did get some attention lately and got featured on the LINUX Unplugged podcast, @ubuntu and @snapcraft.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Interview-for-ownCloud.html" title="Interview for ownCloud"><span class="ezstring-field">Interview for ownCloud</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">12/12/2017, 14:07</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p><strong>Emil</strong> from <a href="https://owncloud.org/" target="_blank"><strong>ownCloud</strong></a> asked me for an interview about <strong>QOwnNotes</strong>. Here are his questions and my answers.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-for-Fedora-27.html" title="QOwnNotes for Fedora 27"><span class="ezstring-field">QOwnNotes for Fedora 27</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">23/11/2017, 21:13</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now is a <strong>QOwnNotes</strong> release for <strong>Fedora Linux 27</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-reviewed-in-German-magazine-c-t.html" title="QOwnNotes reviewed in German magazine c&#039;t"><span class="ezstring-field">QOwnNotes reviewed in German magazine c&#039;t</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">01/10/2017, 08:53</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p><strong>QOwnNotes</strong> got reviewed in the German magazine <strong>c't</strong>, issue 21/17 on page 70!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotesAPI-in-the-ownCloud-Marketplace.html" title="QOwnNotesAPI in the ownCloud Marketplace"><span class="ezstring-field">QOwnNotesAPI in the ownCloud Marketplace</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">05/07/2017, 15:37</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>The ownCloud / Nextcloud API application<strong> QOwnNotesAPI</strong> for QOwnNotes is now available in the <a href="https://marketplace.owncloud.com/apps/qownnotesapi" target="_blank">ownCloud Marketplace</a>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-as-AppImage.html" title="QOwnNotes as AppImage"><span class="ezstring-field">QOwnNotes as AppImage</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">03/07/2017, 17:54</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now are releases of <strong>QOwnNotes</strong> as <strong>AppImage</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/QOwnNotes-for-Debian-9.0-Fedora-26-and-openSUSE-Leap-42.3.html" title="QOwnNotes for Debian 9.0, Fedora 26 and openSUSE Leap 42.3"><span class="ezstring-field">QOwnNotes for Debian 9.0, Fedora 26 and openSUSE Leap 42.3</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">26/06/2017, 20:45</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now are releases of <strong>QOwnNotes</strong> for <strong>Debian Linux 9.0</strong>, <strong>Fedora 26</strong> and <strong>openSUSE Leap 42.3</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Script-repository-and-script-settings-variables.html" title="Script repository and script settings variables"><span class="ezstring-field">Script repository and script settings variables</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">19/05/2017, 19:05</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now is a <strong>script repository</strong> for <strong>QOwnNotes</strong> at <a href="https://github.com/qownnotes/scripts" target="_blank">QOwnNotes script repository</a> and you can <strong>register settings variables</strong> in <strong>scripts</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Fedora-25-release-and-new-documentation-page.html" title="Fedora 25 release and new documentation page"><span class="ezstring-field">Fedora 25 release and new documentation page</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">20/12/2016, 16:56</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now is a QOwnNotes release for <strong>Fedora Linux 25</strong> and a <strong>new documentation page</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Solus-package-for-QOwnNotes.html" title="Solus package for QOwnNotes"><span class="ezstring-field">Solus package for QOwnNotes</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">23/11/2016, 16:33</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There now is a <strong>QOwnNotes</strong> package for <strong>Solus</strong>!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                        <li>
+                                        <h3><a href="Blog/Automatic-updates-in-Windows-and-macOS.html" title="Automatic updates in Windows and macOS"><span class="ezstring-field">Automatic updates in Windows and macOS</span></a></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">05/11/2016, 11:50</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>QOwnNotes can now do <strong>automatic updates</strong> in <strong>Windows</strong> and <strong>macOS</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                                                    <li >
+                                        <h3><span class="ezstring-field">QOwnNotes repositories for Fedora Linux</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">04/01/2016, 12:08</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There are now also QOwnNotes<strong> software repositories</strong> for <strong>Fedora</strong> Linux!</p><p>Visit the <a href="installation.html" target="_self">installation page</a> for more instructions.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">QOwnNotes repositories for Ubuntu and openSUSE Linux</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">03/01/2016, 18:20</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>There are now QOwnNotes<strong> software repositories</strong> for <strong>Ubuntu</strong> Linux and <strong>openSUSE</strong> Linux!</p><p>Visit the brand new <a href="installation.html" target="_self">installation page</a> for more information.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="For openSUSE there are now packages provided by lemmy04 on QOwnNotes for openSUSE.
+
+">
+                                        <h3><span class="ezstring-field">QOwnNotes packages for openSUSE are now available</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">29/11/2015, 17:00</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>For <strong>openSUSE</strong> there are now packages provided by <em>lemmy04</em> on <strong><a href="https://build.opensuse.org/package/show/home:lemmy04/qownnotes" target="_blank">QOwnNotes for openSUSE</a></strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">QOwnNotes on Linux Unplugged</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">04/11/2015, 18:21</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p><strong>QOwnNotes</strong> got featured on <a href="http://www.jupiterbroadcasting.com/90016/does-slack-mattermost-lup-117/" target="_blank"><strong>Linux Unplugged</strong> - Episode 117</a> by <strong><a href="http://www.jupiterbroadcasting.com/" target="_blank">Jupiter Broadcasting</a></strong>, the largest GNU/Linux podcast network! You can also watch the part on <strong><a href="https://youtu.be/189EVbWmxYc?t=19m56s" target="_blank">YouTube</a></strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="I just built a new binary of QOwnNotes v0.49 for Fedora 22.
+
+">
+                                        <h3><span class="ezstring-field">QOwnNotes v0.49 binary for Fedora</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">11/10/2015, 18:26</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>I just built a new binary of <strong>QOwnNotes</strong> v0.49 for Fedora 22.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="I&#039;m now using Travis for Linux building and release deploying and AppVeyor for the Windows counterpart.Visit the QOwnNotes GitHub releases page for the most recent Windows and Linux releases!
+
+">
+                                        <h3><span class="ezstring-field">GitHub releases</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">24/07/2015, 08:41</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Visit the <a href="https://github.com/pbek/QOwnNotes/releases" target="_blank">QOwnNotes GitHub releases</a> page for the most recent Windows and Linux releases!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="The last build of QOwnNotes for Windows has lots of character encoding fixes and icons for Windows 8.1.Get it at the download section!
+
+">
+                                        <h3><span class="ezstring-field">Character encoding fixes and icons for Windows 8.1</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">03/06/2015, 17:47</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>The last build of QOwnNotes for Windows has lots of character encoding fixes and icons for Windows 8.1.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">New official webpage for QOwnNotes</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">31/03/2015, 18:57</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Today the new <strong>official project webpage</strong> for <a href="index.html" target="_blank"><strong>QOwnNotes</strong></a> went online!</p><p>Head over to <strong><a href="index.html" target="_blank">www.qownnotes.org</a> </strong>now for the <strong>latest news</strong> and <strong>downloads</strong>.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="Build 25 brings better url handling in the markdown preview mode. Links to other notes or files are now possible!Examples:- &amp;lt;note://MyNote&amp;gt; opens the note &quot;MyNote&quot;- &amp;lt;note://my-note-with-spaces-in-the-name&amp;gt; opens the note &quot;My Note with spaces in the name&quot;- &amp;lt;http://www.bekerle.com/QOwnNotes&amp;gt; opens the webpage- &amp;lt;file:///path/to/my/file/QOwnNotes.pdf&amp;gt; opens the file &quot;/path/to/my/file/QOwnNotes.pdf&quot; if the operating system supports that handler
+
+">
+                                        <h3><span class="ezstring-field">Better url handling in the markdown preview mode</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">23/03/2015, 18:32</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Build 25 brings better url handling in the markdown preview mode. Links to other notes or files are now possible!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Crash fixes and recent note folder list</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">22/03/2015, 18:36</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Fixed a crash when opening empty note-files (build 23) and added a "recent note folder list" feature in build 24.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Fedora 21 binary</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">15/03/2015, 18:37</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>I managed to create a Fedora 21 binary. Although you still need to install all the QT5 libraries manually, especially the QT5 SVG library. Can anyone please confirm that it works for you.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Markdown HTML preview</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">03/02/2015, 18:38</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Added a toolbar and a markdown-html-preview-mode! Finally binaries with this features are available for Linux, OS X and Linux.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Windows package fixes</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">24/01/2015, 18:39</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>I got a response that there are problems with the Windows package of QOwnNotes, these problems should be fixed now. Please report if you have any more troubles with it.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">About screen</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">21/01/2015, 18:40</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Added an about screen for build 16.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Debian package fixes</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">12/01/2015, 18:40</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>The build 15 package of the Linux binary uses dependencies to other libraries due to some troubles with using the bundled shared libraries. Does still anyone have problems with the Debian package?</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li class="file-tooltip" title="Finally I could prepare a 64bit binary for QOwnNotes with all libraries and no other dependencies for Linux (as a Debian package)! My thanks to Debreate and Hemanth.HM&#039;s shell script. You will find the Debian file in the download area on this page.
+
+">
+                                        <h3><span class="ezstring-field">Debian package</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">07/01/2015, 18:41</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Finally I could prepare a <strong>64bit</strong> binary for <strong>QOwnNotes</strong> with all libraries and <strong>no other dependencies</strong> for <strong>Linux</strong> (as a <strong>Debian package</strong>)!</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                                    <li >
+                                        <h3><span class="ezstring-field">Mac OS disk image and Windows ZIP</span></h3>
+                                        <div class="date">
+                                            <div class="ezdatetime-field">05/01/2015, 18:42</div>
+                                        </div>
+                                        <div class="intro">
+                                            <div class="ezxmltext-field"><p>Finally I was able to create a <strong>Mac OS dmg</strong> with all libraries (a big thank you to <a href="https://github.com/MaximAlien/macdeployqt" target="_blank">macdeployqt</a>) and an <strong>app icon</strong> (thanks to <a href="http://iconverticons.com/online/" target="_blank">iconverticons</a>) and a <strong>ZIP for Windows</strong>, including the binary with an <strong>icon</strong> and all the <strong>DLLs</strong>! You will find them in the <a href="http://www.bekerle.com/QOwnNotes#downloads" target="_self">download area</a> on this page.</p>
+</div>
+
+                                        </div>
+                                    </li>
+                                                            </ul>
+                            <div class="ticker-buttons">
+                                <span id="news-prev-button" title="previous item" class="fa fa-chevron-circle-left"></span>
+                                <span id="news-next-button" title="next item" class="fa fa-chevron-circle-right"></span>
+                            </div>
+                        </div>
+                                                                <div class="widget" id="git-commits">
+                            <h2>Last GitHub Commits</h2>
+                            <ul>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/668fdeea80a3644cccfbba58d187d0df7abef637" target="_blank"><h3>Move new description to package.json</h3></a>
+            6 Oct 2020, 20:27:18
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/a51a8da9814365a718420f15e5a0f598ef5889d4" target="_blank"><h3>Fix a typo</h3></a>
+            6 Oct 2020, 20:24:25
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/55ee3c3b2894c47d3b2cc28ff3ff41a8abecb996" target="_blank"><h3>Fix frontpage title and description</h3></a>
+            6 Oct 2020, 20:10:48
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/9f03a55af25d2d6f84743a480b543b19793bee5a" target="_blank"><h3>Add navbar logo</h3></a>
+            6 Oct 2020, 19:17:05
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/266b8229e0cd7974e0721587c63d2346c9a9e4f9" target="_blank"><h3>Add more pages, a footer, more nav items, improve maintainer page and styling, update vuepress</h3></a>
+            6 Oct 2020, 19:03:41
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/3b53a29537c6ff7cbbfdffb7e14deeb1da40cf6c" target="_blank"><h3>Add &quot;free open source&quot;</h3></a>
+            5 Oct 2020, 22:33:15
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/4b1c944a58a07764a7a4c08086637a2a9a8f3b83" target="_blank"><h3>Do more sidebar switching and remove docsRepo setting</h3></a>
+            5 Oct 2020, 22:26:54
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/17119d44dcb1837c208cb6064bf629eea22a2f4d" target="_blank"><h3>Swap &quot;Getting started&quot; and &quot;Installation&quot;</h3></a>
+            5 Oct 2020, 22:07:49
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/669bcea716b21faa52ed62d89456be782fbdab5e" target="_blank"><h3>Fix documentation links</h3></a>
+            5 Oct 2020, 22:01:25
+        </li>
+            <li >
+            <a rel="nofollow" href="https://github.com/pbek/QOwnNotes/commit/036c7e458d21d740bc9a38fe032566d8261c6f32" target="_blank"><h3>Add more installation information</h3></a>
+            5 Oct 2020, 21:58:39
+        </li>
+    </ul>
+
+                            <div class="ticker-buttons">
+                                <span id="git-prev-button" title="previous item" class="fa fa-chevron-circle-left"></span>
+                                <span id="git-next-button" title="next item" class="fa fa-chevron-circle-right"></span>
+                            </div>
+                        </div>
+                                                                <div class="widget" id="git-repository">
+                            <h2>Git Repository</h2>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/pbek/QOwnNotes"
+            class="ezurl-field">QOwnNotes on GitHub</a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                        <div class="widget" id="banner">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- bekerle.com responsive -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9106433327089523"
+             data-ad-slot="7070321699"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+                                    </aside>
+            </div>
+        </div>
+        <div class="item-border"><span></span></div>
+    </section><!-- /#post -->
+            </div>
+
+            <a id="up"></a>
+        </div>
+    </div>
+    <div class="row-wrap wrapper light_skin">
+        <div class="row-space">
+            <div class="copyright">
+                &copy; 2020 by <a target="_blank" title="Web-Development Patrizio Bekerle" href="https://www.bekerle.com/">Patrizio Bekerle</a> | <a title="Donate to QOwnNotes" href="donate.html">Donate</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal"></div>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="https://polldaddy.com/survey.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        polldaddy.add( {
+            type: 'slider',
+            embed: 'poll',
+            delay: 100,
+            visit: 'single',
+            id: 9309350
+        } );
+    </script>
+        <script type="text/javascript">
+        window.___gcfg = {lang: 'en-GB'};
+
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57c12264c6276e60"></script>
+</body>
+</html>

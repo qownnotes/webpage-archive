@@ -1,0 +1,8 @@
+.noprint {
+    display:none;
+}
+
+#resume .resume-features .resume-feature-list {
+    overflow-y: visible !important;
+    height: auto !important;
+}
